@@ -2680,7 +2680,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0061;
         public static final int action_mode_bar_stub=0x7f0d0060;
         public static final int action_mode_close_button=0x7f0d0043;
-        public static final int action_settings=0x7f0d00a0;
+        public static final int action_settings=0x7f0d00a4;
         public static final int action_text=0x7f0d0089;
         public static final int actions=0x7f0d0096;
         public static final int activity_chooser_view_content=0x7f0d0044;
@@ -2719,6 +2719,8 @@ containing a value of this type.
         public static final int end_padder=0x7f0d009d;
         public static final int enterAlways=0x7f0d0019;
         public static final int enterAlwaysCollapsed=0x7f0d001a;
+        public static final int etEmail=0x7f0d00a1;
+        public static final int etPassword=0x7f0d00a0;
         public static final int exitUntilCollapsed=0x7f0d001b;
         public static final int expand_activities_button=0x7f0d0045;
         public static final int expanded_menu=0x7f0d005a;
@@ -2742,7 +2744,7 @@ containing a value of this type.
         public static final int listMode=0x7f0d000f;
         public static final int list_item=0x7f0d0048;
         public static final int main_content=0x7f0d0073;
-        public static final int masked=0x7f0d009f;
+        public static final int masked=0x7f0d00a3;
         public static final int media_actions=0x7f0d008d;
         public static final int middle=0x7f0d0039;
         public static final int mini=0x7f0d0037;
@@ -2805,6 +2807,8 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0d0052;
         public static final int textSpacerNoTitle=0x7f0d0051;
         public static final int textView=0x7f0d0086;
+        public static final int textView2=0x7f0d009e;
+        public static final int textView3=0x7f0d009f;
         public static final int text_input_password_toggle=0x7f0d0084;
         public static final int textinput_counter=0x7f0d0009;
         public static final int textinput_error=0x7f0d000a;
@@ -2821,7 +2825,7 @@ containing a value of this type.
         public static final int up=0x7f0d000d;
         public static final int useLogo=0x7f0d0018;
         public static final int view_offset_helper=0x7f0d000e;
-        public static final int visible=0x7f0d009e;
+        public static final int visible=0x7f0d00a2;
         public static final int withText=0x7f0d003e;
         public static final int wrap_content=0x7f0d0024;
     }

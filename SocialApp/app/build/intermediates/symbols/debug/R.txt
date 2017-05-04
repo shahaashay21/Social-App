@@ -702,7 +702,7 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d0061
 int id action_mode_bar_stub 0x7f0d0060
 int id action_mode_close_button 0x7f0d0043
-int id action_settings 0x7f0d00a0
+int id action_settings 0x7f0d00a4
 int id action_text 0x7f0d0089
 int id actions 0x7f0d0096
 int id activity_chooser_view_content 0x7f0d0044
@@ -741,6 +741,8 @@ int id end 0x7f0d002a
 int id end_padder 0x7f0d009d
 int id enterAlways 0x7f0d0019
 int id enterAlwaysCollapsed 0x7f0d001a
+int id etEmail 0x7f0d00a1
+int id etPassword 0x7f0d00a0
 int id exitUntilCollapsed 0x7f0d001b
 int id expand_activities_button 0x7f0d0045
 int id expanded_menu 0x7f0d005a
@@ -764,7 +766,7 @@ int id line3 0x7f0d009b
 int id listMode 0x7f0d000f
 int id list_item 0x7f0d0048
 int id main_content 0x7f0d0073
-int id masked 0x7f0d009f
+int id masked 0x7f0d00a3
 int id media_actions 0x7f0d008d
 int id middle 0x7f0d0039
 int id mini 0x7f0d0037
@@ -827,6 +829,8 @@ int id text2 0x7f0d009a
 int id textSpacerNoButtons 0x7f0d0052
 int id textSpacerNoTitle 0x7f0d0051
 int id textView 0x7f0d0086
+int id textView2 0x7f0d009e
+int id textView3 0x7f0d009f
 int id text_input_password_toggle 0x7f0d0084
 int id textinput_counter 0x7f0d0009
 int id textinput_error 0x7f0d000a
@@ -843,7 +847,7 @@ int id transition_scene_layoutid_cache 0x7f0d000c
 int id up 0x7f0d000d
 int id useLogo 0x7f0d0018
 int id view_offset_helper 0x7f0d000e
-int id visible 0x7f0d009e
+int id visible 0x7f0d00a2
 int id withText 0x7f0d003e
 int id wrap_content 0x7f0d0024
 int integer abc_config_activityDefaultDur 0x7f0b0001

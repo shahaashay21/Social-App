@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 04 07:10:46 PDT 2017
+#Thu May 04 07:46:00 PDT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view.xml
