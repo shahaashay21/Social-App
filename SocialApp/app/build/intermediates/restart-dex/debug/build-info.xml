@@ -2,73 +2,39 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="FULL"
+    build-mode="COLD"
     density="560dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1493742812392"
+    timestamp="1493907197815"
     token="1981159933689679778"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="467" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="55" />
+        duration="0" />
     <task
         name="verifier"
-        duration="34" />
-
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1493742812392"
+        timestamp="1493907044527"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\outputs\apk\app-debug.apk"
@@ -92,14 +58,15 @@
             location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1493907197815"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

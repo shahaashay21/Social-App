@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
@@ -14,17 +14,18 @@ ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\An
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\7be38fc4609270e911d0ee64e52a977ce52bfcac\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\264ac5b23f450a758224174d9eaeb619a1fbf234\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\e8f5f9160570e9b1547aacd74c006df26ed74754\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Qolsys\.android\build-cache\0bfb425f07acfe3dadfe05d70a1848392cf7e4e4\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Qolsys\.android\build-cache\7bb0108cacc2764eefb491da778508d1307db746\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Qolsys\.android\build-cache\7a875e25464118a68cf809593075b26dd4af6c5f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\304dc08b2596a6ae413421e04ca28e4dd579f382\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Qolsys\.android\build-cache\4eac0d88ea74c29c6216522e29bc566856f6217e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Qolsys\.android\build-cache\91bf34649490b1622363f863169d94640c8986b2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\264ac5b23f450a758224174d9eaeb619a1fbf234\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\e8f5f9160570e9b1547aacd74c006df26ed74754\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\832b7187eece2ec42336a830a8dc1b86a2aa5855\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Qolsys\.android\build-cache\592567c85112366cb64989a060ba9b396b93a03b\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -38,33 +39,39 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Qo
 	android:theme
 		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.project.sjsu.socialapp.SocialActivity
-ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:12:19-49
+		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:13:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\7be38fc4609270e911d0ee64e52a977ce52bfcac\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\264ac5b23f450a758224174d9eaeb619a1fbf234\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\e8f5f9160570e9b1547aacd74c006df26ed74754\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\19ea3c4bba95b9d4114f17625b1c66c217d30aa4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Qolsys\.android\build-cache\0bfb425f07acfe3dadfe05d70a1848392cf7e4e4\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Qolsys\.android\build-cache\7bb0108cacc2764eefb491da778508d1307db746\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Qolsys\.android\build-cache\7a875e25464118a68cf809593075b26dd4af6c5f\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\304dc08b2596a6ae413421e04ca28e4dd579f382\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Qolsys\.android\build-cache\4eac0d88ea74c29c6216522e29bc566856f6217e\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Qolsys\.android\build-cache\91bf34649490b1622363f863169d94640c8986b2\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\264ac5b23f450a758224174d9eaeb619a1fbf234\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\e8f5f9160570e9b1547aacd74c006df26ed74754\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\832b7187eece2ec42336a830a8dc1b86a2aa5855\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Qolsys\.android\build-cache\592567c85112366cb64989a060ba9b396b93a03b\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\7be38fc4609270e911d0ee64e52a977ce52bfcac\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
@@ -72,16 +79,19 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Qo
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\7be38fc4609270e911d0ee64e52a977ce52bfcac\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\264ac5b23f450a758224174d9eaeb619a1fbf234\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\e8f5f9160570e9b1547aacd74c006df26ed74754\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\19ea3c4bba95b9d4114f17625b1c66c217d30aa4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Qolsys\.android\build-cache\0bfb425f07acfe3dadfe05d70a1848392cf7e4e4\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Qolsys\.android\build-cache\7bb0108cacc2764eefb491da778508d1307db746\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Qolsys\.android\build-cache\7a875e25464118a68cf809593075b26dd4af6c5f\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\304dc08b2596a6ae413421e04ca28e4dd579f382\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Qolsys\.android\build-cache\4eac0d88ea74c29c6216522e29bc566856f6217e\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Qolsys\.android\build-cache\91bf34649490b1622363f863169d94640c8986b2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\264ac5b23f450a758224174d9eaeb619a1fbf234\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\e8f5f9160570e9b1547aacd74c006df26ed74754\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\832b7187eece2ec42336a830a8dc1b86a2aa5855\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\7be38fc4609270e911d0ee64e52a977ce52bfcac\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\32897fae47e88ad65ece7d98f30421e3532df872\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\7be38fc4609270e911d0ee64e52a977ce52bfcac\output\AndroidManifest.xml:26:9-47

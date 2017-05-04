@@ -1,11 +1,15 @@
 [
     {
-        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\32897fae47e88ad65ece7d98f30421e3532df872\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\7be38fc4609270e911d0ee64e52a977ce52bfcac\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
         "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\Qolsys\\.android\\build-cache\\32897fae47e88ad65ece7d98f30421e3532df872\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\32897fae47e88ad65ece7d98f30421e3532df872\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -14,6 +18,10 @@
     {
         "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Qolsys\\.android\\build-cache\\32897fae47e88ad65ece7d98f30421e3532df872\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\7be38fc4609270e911d0ee64e52a977ce52bfcac\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -58,6 +66,10 @@
     {
         "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Qolsys\\.android\\build-cache\\32897fae47e88ad65ece7d98f30421e3532df872\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\7be38fc4609270e911d0ee64e52a977ce52bfcac\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
