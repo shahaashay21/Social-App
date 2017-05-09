@@ -6,7 +6,10 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "ejs": "*",
     "express": "3.2.6",
-    "ejs": "*"
+    "mocha": "^3.3.0",
+    "sequelize": "^3.30.4"
   }
 }
