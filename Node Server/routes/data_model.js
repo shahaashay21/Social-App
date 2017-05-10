@@ -16,10 +16,12 @@ exports.Users = sequelize.define('users',{
 		user_id: {
 			type: Sequelize.INTEGER,
 			primaryKey: true,
-			allowNull: false
+			autoIncrement: true
 		},
 		user_name: {
 			type: Sequelize.STRING,
+			allowNull: false,
+			unique: true
 		},
 		email: {
 			type: Sequelize.STRING,
@@ -31,16 +33,13 @@ exports.Users = sequelize.define('users',{
 			allowNull: false
 		},
 		avatar: {
-			type: Sequelize.TEXT,
+			type: Sequelize.STRING,
 		},
 		verification_code: {
-			type: Sequelize.STRING,
+			type: Sequelize.TEXT,
 		},
 		verified: {
 			type: Sequelize.INTEGER,
-		},
-		user_url: {
-			type: Sequelize.TEXT,
 		},
 		city: {
 			type: Sequelize.STRING,
@@ -65,9 +64,6 @@ exports.Users = sequelize.define('users',{
 		},
 		last_name: {
 			type: Sequelize.STRING,
-		},
-		entry_date: {
-			type: Sequelize.DATEONLY,
 		}
 	},{
 		timestamps: true,
