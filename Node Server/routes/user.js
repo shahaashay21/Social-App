@@ -33,9 +33,9 @@ exports.registerUser = function(req, res){
 					console.log("user: "+user);
 					console.log("created: "+created);
 					if(created){
-						res.end(JSON.stringify('Registered'));
+						res.end("Registered");
 					}else{
-						res.end(JSON.stringify('available'));
+						res.end("available");
 					}
 			});
 			
@@ -63,11 +63,11 @@ exports.loginUser = function(req, res){
 							}
 					res.end(JSON.stringify(retdata));
 				}else{
-					res.end(JSON.stringify('wrong password'));
+					res.send("wrong password");
 				}
 			});
 		}else{
-			res.end(JSON.stringify('email is not available'));
+			res.end("email is not available");
 		}
 	});
 }

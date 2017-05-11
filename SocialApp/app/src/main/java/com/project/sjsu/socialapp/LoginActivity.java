@@ -19,6 +19,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,17 +29,24 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static android.Manifest.permission.READ_CONTACTS;
+import static com.project.sjsu.socialapp.R.id.time;
 
 /**
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
+    private final String IP = "http://54.183.170.253:3000";
+    private final String LOGIN_ROUTE = "/user/login";
+    private final String REGISTER_ROUTE = "/user/register";
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -185,10 +193,42 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
+
+            // Show volley user authentication using http request class
+            HttpRequest request = new HttpRequest(getApplicationContext());
+            Map<String, String> sendPostRequestData = new HashMap<>();
+            sendPostRequestData.put("email", mEmailView.getText().toString());
+            sendPostRequestData.put("password", mPasswordView.getText().toString());
+            request.sendPostRequest(IP+LOGIN_ROUTE, sendPostRequestData, new CallbackInterface(){
+                @Override
+                public void onCallBackComplete(String[] response) {
+                    Log.e("RESPONSE", response[0]);
+//                    focusView = null;
+                    if(response[0].equals("success")){
+                        Log.e("RESPONSE 1", response[1]);
+                        if(response[1].equals("email is not available")){
+                            mEmailView.setError("Email is not available");
+                            mEmailView.requestFocus();
+                        }else if(response[1].equals("wrong password")){
+                            mPasswordView.setError("Wrong password");
+                            mPasswordView.requestFocus();
+                        }else {
+                            // CHANGE TO OTHER PAGE
+                            Toast.makeText(getApplicationContext(), "SUCCESSFULLY LOGGED IN", Toast.LENGTH_SHORT).show();
+                        }
+                    }else {
+                        Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
+                    }
+                    showProgress(false);
+                }
+            });
         }
     }
+
+//    private void showLoginError(View forFocus, String message){
+//        forFocus.requestFocus();
+////        forFocus.setError
+//    }
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic

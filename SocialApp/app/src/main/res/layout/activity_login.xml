@@ -72,6 +72,15 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
 
+            <Button
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register"
+                android:text="@string/register"
+                android:layout_marginTop="35dp"
+                android:textStyle="bold"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

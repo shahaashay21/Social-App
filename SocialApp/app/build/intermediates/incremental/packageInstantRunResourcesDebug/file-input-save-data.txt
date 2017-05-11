@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 10 22:54:10 PDT 2017
+#Thu May 11 00:34:03 PDT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png

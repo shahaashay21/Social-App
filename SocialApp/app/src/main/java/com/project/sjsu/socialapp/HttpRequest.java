@@ -88,11 +88,13 @@ public class HttpRequest {
         requestResponse[1] = requestResponseData;
     }
 
-    public String[] sendPostRequest(final String URL, final Map data){
+    public void sendPostRequest(final String URL, final Map data, final CallbackInterface listner){
+        Log.d("INTO sendPostRequest", "HERE");
         new Handler(Looper.getMainLooper()).post(
             new Runnable() {
                 @Override
                 public void run() {
+                    mRequestQueue = Volley.newRequestQueue(applicationContext);
                     StringRequest postRequest = new StringRequest(Request.Method.POST, URL,
                         new Response.Listener<String>()
                         {
@@ -100,6 +102,7 @@ public class HttpRequest {
                             public void onResponse(String response) {
                                 Log.d("Response", response);
                                 postRequestResponse = responsePostGenerator(1, response);
+                                listner.onCallBackComplete(postRequestResponse);
                             }
                         },
                         new Response.ErrorListener()
@@ -108,6 +111,7 @@ public class HttpRequest {
                             public void onErrorResponse(VolleyError error) {
                                 Log.d("Error.Response", error.toString());
                                 postRequestResponse = responsePostGenerator(0, error.toString());
+                                listner.onCallBackComplete(postRequestResponse);
                             }
                         }
                     ) {
@@ -118,11 +122,13 @@ public class HttpRequest {
                             return  params;
                         }
                     };
+
+                    mRequestQueue.add(postRequest);
                 }
             }
         );
 
-        return postRequestResponse;
+//        return postRequestResponse;
     }
 
 
