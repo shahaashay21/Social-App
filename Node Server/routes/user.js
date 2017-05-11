@@ -44,6 +44,35 @@ exports.registerUser = function(req, res){
 }
 
 
+exports.loginUser = function(req, res){
+
+	console.log("Class users and function loginUser");
+
+	var email = req.param('email');
+	var password = req.param('password');
+
+	Users.find({where: {email: email}, attributes: ['user_id', 'password']}).then(function(returnData){
+		console.log("Return DATA: "+ JSON.stringify(returnData));
+		if(returnData){
+			bcrypt.compare(password, returnData.password, function(err, ans){
+				console.log("PASSWORD IS "+ JSON.stringify(ans));
+				if(ans){
+					retdata = {
+									'user_id': returnData.user_id,
+									'ret': 'true'
+							}
+					res.end(JSON.stringify(retdata));
+				}else{
+					res.end(JSON.stringify('wrong password'));
+				}
+			});
+		}else{
+			res.end(JSON.stringify('email is not available'));
+		}
+	});
+}
+
+
 // exports.list = function(req, res){
 //   res.send("respond with a resource");
 // };
