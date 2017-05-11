@@ -28,17 +28,17 @@
         <activity
             android:name="com.project.sjsu.socialapp.SocialActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.project.sjsu.socialapp.LoginActivity"
-            android:label="@string/title_activity_login" >
+            android:label="SocialApp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.project.sjsu.socialapp.RegisterActivity" />
     </application>
 
 </manifest>

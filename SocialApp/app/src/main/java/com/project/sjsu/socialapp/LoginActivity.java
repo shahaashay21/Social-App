@@ -3,6 +3,7 @@ package com.project.sjsu.socialapp;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -95,6 +96,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override
             public void onClick(View view) {
                 attemptLogin();
+            }
+        });
+
+        Button mRegisterButton = (Button) findViewById(R.id.register);
+        mRegisterButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent forwardRegister = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(forwardRegister);
             }
         });
 
@@ -214,7 +224,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                             mPasswordView.requestFocus();
                         }else {
                             // CHANGE TO OTHER PAGE
-                            Toast.makeText(getApplicationContext(), "SUCCESSFULLY LOGGED IN", Toast.LENGTH_SHORT).show();
+                            Intent forwardFront = new Intent(getApplicationContext(), SocialActivity.class);
+                            startActivity(forwardFront);
+                            finish();
+//                            Toast.makeText(getApplicationContext(), "SUCCESSFULLY LOGGED IN", Toast.LENGTH_SHORT).show();
                         }
                     }else {
                         Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
