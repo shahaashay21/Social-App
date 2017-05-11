@@ -1,79 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
+    abi="x86_64,x86"
+    api-level="23"
     build-mode="COLD"
-    density="560dpi"
+    density="420dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1493915541614"
-    token="1981159933689679778"
+    timestamp="1494482049218"
+    token="764223621027248872"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="302" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="206" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\outputs\apk\app-debug.apk"
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1493915446349"
+        timestamp="1494476822037"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\outputs\apk\app-debug.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1493915541614"
+        timestamp="1494482049218"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\outputs\apk\app-debug.apk"
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

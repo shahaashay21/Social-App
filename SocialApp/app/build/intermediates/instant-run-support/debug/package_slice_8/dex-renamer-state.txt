@@ -1,4 +1,4 @@
-#Thu May 04 06:47:57 PDT 2017
-base.0=C\:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+#Wed May 10 22:54:13 PDT 2017
+base.0=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
 renamed.0=classes.dex
-file.0=C\:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex
+file.0=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex

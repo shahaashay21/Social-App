@@ -3,21 +3,138 @@
 
     <item
         is-multidex="true"
-        jar="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/aashayshah/.android/build-cache/61753c6cc443e3eff1287f5dffc87ff4a248c2ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_205a4c82e36c0323690f45e545d35746b5d94d56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/38c06423fa11c0a101b6c04081f6c7ad7bf347e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_48d3aaac6d191322dee2fedef255b48db4160bfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/8c8ef6d4cbae493b24d27a970b83e0c34aab4d03/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c7fe00b9a7ad1bf2d2614635eefc3e3ded416733/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="320b89563bf4e42dd70deca4c056e265ddc0dfb0">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e55bb0c8d811f7a08765dbd54f44090ed7ac3835/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/9bd1f13669c2eea402221330fe27ada707d8d1b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97b5d27af1692f2e77568b0612542b9ed06ec4f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/dc64d19cee80c58b9386a401e8bf0721da9ff0c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_37ee29e2548492b0205c7672e22abc3e7367528c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/8a2b204b542e6eaf70faf2a3a4a3f36b322035eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fecf1f29901c3edbca6892507073b9d6e191177b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/0547ca028e61845b2bd22f1038234524995fcaa3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b921598ccab517c012379f5ec4635baf85dabb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/167a6a6ba660327d582865ead28411c14b13b6a0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8fab8a7fae111e59e545167ef276893c505d6d99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d55051d37d4a41549ea8367fdcf95ff783fff5a1\classes.dex" />
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5689a3584ef3505f842fc6eb891004a0a84a99c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e4cab0e6d833a2d24e2f570b17efb7f011f8b7b5">
-        <dex dex="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_49a8b79e97027a2f2911d06aa7822a8ab3debb70\classes.dex" />
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ede7888e59561ddb601b8e4b45bfec6c2e3afcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/24822880e2d0342156ad27e827548bddd3ad8f52/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_acc9e7e76923c68586961af2ec5948cc8081deda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/7c1c58809b493a5ec87d81f86a3193cff1b8ad01/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dad7f7abb8366a46fb02c8781ee18a0156eece97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/b170934d55fe7808b6ca1ecf39ba5b4a37229712/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a5288746bc0a11cec7f910fb7bb0725c94fa6e35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ce0bd32c95320fcd90dda7c94dd904012a1aa1ce/classes.dex" />
     </item>
 
 </items>
