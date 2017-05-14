@@ -33,7 +33,7 @@ exports.registerUser = function(req, res){
 					console.log("user: "+user);
 					console.log("created: "+created);
 					if(created){
-						res.end("Registered");
+						res.end("registered");
 					}else{
 						res.end("available");
 					}

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/Andro
 	android:name
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:9:22-69
 application
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:11:5-34:19
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:11:5-37:19
 MERGED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/167a6a6ba660327d582865ead28411c14b13b6a0/output/AndroidManifest.xml:26:5-20
@@ -57,7 +57,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aash
 	android:theme
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:17:9-40
 activity#com.project.sjsu.socialapp.SocialActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:18:9-21:68
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:18:9-23:20
 	android:label
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:20:13-45
 	android:theme
@@ -65,25 +65,25 @@ ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/Andro
 	android:name
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:19:13-43
 activity#com.project.sjsu.socialapp.LoginActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:23:9-31:20
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:25:9-33:20
 	android:label
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:25:13-38
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:27:13-38
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:24:13-42
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:26:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:31:27-74
 activity#com.project.sjsu.socialapp.RegisterActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:33:9-63
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:35:9-36:20
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:33:19-51
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:35:19-51
 uses-sdk
 INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:21:5-23:62

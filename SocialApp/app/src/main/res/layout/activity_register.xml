@@ -61,6 +61,15 @@
                 android:singleLine="true" />
 
             <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="User Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
