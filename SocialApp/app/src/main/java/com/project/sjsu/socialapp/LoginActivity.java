@@ -216,6 +216,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         }else if(response[1].equals("wrong password")){
                             mPasswordView.setError("Wrong password");
                             mPasswordView.requestFocus();
+                        }else if(response[1].equals("email is not verified")){
+                            Toast.makeText(getApplicationContext(), "Please verify your email address", Toast.LENGTH_LONG).show();
                         }else {
                             // CHANGE TO OTHER PAGE
                             Intent forwardFront = new Intent(getApplicationContext(), SocialActivity.class);

@@ -54,7 +54,7 @@
 
                 <data
                     android:host="54.183.170.253"
-                    android:path="/user/confirmed"
+                    android:path="/user/confirm"
                     android:port="3000"
                     android:scheme="http" />
             </intent-filter>

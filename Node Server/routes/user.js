@@ -22,8 +22,9 @@ exports.registerUser = function(req, res){
 
 
 //	GENERATE RANDOM STRING USING CRYPTO
-	require('crypto').randomBytes(48, function(err, buffer) {
-		var token = buffer.toString('hex');
+	// require('crypto').randomBytes(48, function(err, buffer) {
+		// var token = buffer.toString('hex');
+		var token = Math.floor(10000 + Math.random() * 90000);
 	//	ENCRYPT PASSWORD USING BCRYPT
 		bcrypt.hash(password, null, null, function(err, hash) {
 	//		GET NEXT USER ID FROM MYSQL FUNCTION
@@ -36,7 +37,7 @@ exports.registerUser = function(req, res){
 			userValue['password'] = hash;
 			userValue['verification_code'] = token;
 
-			var URL = IP+CONFIRMATION_URL+"?email="+email+"&token="+token;
+			var URL = IP+CONFIRMATION_URL+"?email="+email;
 
 	//			CHECK USER IS ALREADY AVAILABLE OR NOT IF NOT THEN CREATE USER
 			Users.findOrCreate({where: {$or: [{user_name: user_name}, {email: email}]}, defaults: userValue})
@@ -44,7 +45,7 @@ exports.registerUser = function(req, res){
 					console.log("user: "+user);
 					console.log("created: "+created);
 					if(created){
-						sendEmail.sendForRegister(email, URL, function(emailStatus){
+						sendEmail.sendForRegister(token, email, URL, function(emailStatus){
 							// if(emailStatus == "success"){
 							// 	res.send("registered");
 							// }else{
@@ -58,7 +59,7 @@ exports.registerUser = function(req, res){
 			});
 			
 		});
-	});
+	// });
 }
 
 
@@ -72,16 +73,22 @@ exports.loginUser = function(req, res){
 	Users.find({where: {email: email}, attributes: ['user_id', 'password']}).then(function(returnData){
 		// console.log("Return DATA: "+ JSON.stringify(returnData));
 		if(returnData){
-			bcrypt.compare(password, returnData.password, function(err, ans){
-				// console.log("PASSWORD IS "+ JSON.stringify(ans));
-				if(ans){
-					retdata = {
-									'user_id': returnData.user_id,
-									'ret': 'true'
-							}
-					res.send(JSON.stringify(retdata));
+			Users.find({where: {email: email, verified: "1"}, attributes: ['user_id', 'password']}).then(function(userData){
+				if(userData){
+					bcrypt.compare(password, userData.password, function(err, ans){
+						// console.log("PASSWORD IS "+ JSON.stringify(ans));
+						if(ans){
+							retdata = {
+											'user_id': userData.user_id,
+											'ret': 'true'
+									}
+							res.send(JSON.stringify(retdata));
+						}else{
+							res.send("wrong password");
+						}
+					});
 				}else{
-					res.send("wrong password");
+					res.send("email is not verified");
 				}
 			});
 		}else{
@@ -97,25 +104,34 @@ exports.confirmationUser = function(req, res){
 	var email = req.param('email');
 	var token = req.param('token');
 
-	Users.findOne({where: {email: email, verification_code: token}}).then(function(id){
-		if(id){
-			Users.update({
-				verification_code: null,
-				verified: 1
-			}, {
-				where: {
-					email: email, 
-					verification_code: token
+	console.log("TOKEN PIN:"+token);	
+
+	Users.findOne({where: {email: email}}).then(function(userValue){
+		// console.log(userValue.dataValues);
+		// console.log(userValue.dataValues.verified);
+		if(userValue.dataValues.verified == "0"){
+			Users.findOne({where: {email: email, verification_code: token}}).then(function(id){
+				// console.log(id);
+				if(id){
+					Users.update({
+						verification_code: null,
+						verified: 1
+					}, {
+						where: {
+							email: email, 
+							verification_code: token
+						}
+					}).then(function(update){
+						if(update[0] == 1){
+							res.send("success");
+						}
+					})
+				}else{
+					res.send("error");
 				}
-			}).then(function(update){
-				if(update[0] == 1){
-					//DO REDIRECT FOR RIGHT TOKEN
-					res.redirect("/user/confirmed");
-				}
-			})
+			});
 		}else{
-			//REDIRECT ON ERROR
-			res.redirect("/error");
+			res.send("verified");
 		}
 	});
 }

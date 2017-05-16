@@ -79,13 +79,13 @@ ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/Andro
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:30:13-65
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:30:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:32:13-73
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:32:23-70
 activity#com.project.sjsu.socialapp.RegisterActivity
 ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:35:9-63
 	android:name
@@ -113,9 +113,9 @@ ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/Andro
 	android:name
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:43:27-75
 data
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:45:17-49:54
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:45:17-49:52
 	android:path
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:49:21-51
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:49:21-49
 	android:host
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:47:21-50
 	android:port

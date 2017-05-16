@@ -37,7 +37,12 @@ app.post('/user/register', user.registerUser);
 app.post('/user/login', user.loginUser);
 
 //Confirm user
-app.get('/user/confirm', user.confirmationUser);
+app.get('/user/confirm', function(req, res){
+	res.send("Ok");
+});
+
+//Confirm user
+app.post('/user/confirmpin', user.confirmationUser);
 
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
