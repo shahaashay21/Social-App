@@ -16,24 +16,24 @@
         "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/front.xml",
         "source": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/res/layout/front.xml"
     },
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/res/layout/design_layout_tab_icon.xml"
-    },
-    {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/profiles.xml",
         "source": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/res/layout/profiles.xml"
+    },
+    {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -60,12 +60,12 @@
         "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -106,6 +106,10 @@
     {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/friends.xml",
         "source": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/res/layout/friends.xml"
+    },
+    {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/activity_email_confirm.xml",
+        "source": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/res/layout/activity_email_confirm.xml"
     },
     {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",

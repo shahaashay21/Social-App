@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.project.sjsu.socialapp",
+    "sha256_cert_fingerprints":
+    ["B7:DE:07:7C:DC:48:0F:27:5C:F7:22:BD:8B:E1:EE:3F:D4:18:A2:0E:FF:02:8E:07:7C:8B:59:96:8D:60:B2:0B"]
+  }
+}]

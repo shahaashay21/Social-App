@@ -25,11 +25,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
         <activity
             android:name="com.project.sjsu.socialapp.SocialActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.project.sjsu.socialapp.LoginActivity"
             android:label="SocialApp" >
@@ -39,7 +42,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.project.sjsu.socialapp.RegisterActivity" >
+        <activity android:name="com.project.sjsu.socialapp.RegisterActivity" />
+        <activity
+            android:name="com.project.sjsu.socialapp.EmailConfirmActivity"
+            android:launchMode="singleTop" >
+            <intent-filter android:autoVerify="true" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="54.183.170.253"
+                    android:path="/user/confirmed"
+                    android:port="3000"
+                    android:scheme="http" />
+            </intent-filter>
         </activity>
     </application>
 
