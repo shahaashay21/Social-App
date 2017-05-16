@@ -1,6 +1,14 @@
-var db = require('./data_model');
-var Users = db.Users;
+//Library
 var bcrypt = require('bcrypt-nodejs');
+
+//Files
+var sendEmail = require('./email');
+var db = require('./data_model');
+
+// Variables
+var Users = db.Users;
+var IP = "http://54.183.170.253:3000";
+var CONFIRMATION_URL = "/user/confirm";
 
 exports.registerUser = function(req, res){
 
@@ -27,15 +35,25 @@ exports.registerUser = function(req, res){
 			userValue['email'] = email;
 			userValue['password'] = hash;
 			userValue['verification_code'] = token;
+
+			var URL = IP+CONFIRMATION_URL+"?email="+email+"&token="+token;
+
 	//			CHECK USER IS ALREADY AVAILABLE OR NOT IF NOT THEN CREATE USER
 			Users.findOrCreate({where: {$or: [{user_name: user_name}, {email: email}]}, defaults: userValue})
 				.spread(function(user,created){
 					console.log("user: "+user);
 					console.log("created: "+created);
 					if(created){
-						res.end("registered");
+						sendEmail.sendForRegister(email, URL, function(emailStatus){
+							// if(emailStatus == "success"){
+							// 	res.send("registered");
+							// }else{
+							// 	res.send("error");
+							// }
+						});
+						res.send("registered");
 					}else{
-						res.end("available");
+						res.send("available");
 					}
 			});
 			
@@ -52,22 +70,52 @@ exports.loginUser = function(req, res){
 	var password = req.param('password');
 
 	Users.find({where: {email: email}, attributes: ['user_id', 'password']}).then(function(returnData){
-		console.log("Return DATA: "+ JSON.stringify(returnData));
+		// console.log("Return DATA: "+ JSON.stringify(returnData));
 		if(returnData){
 			bcrypt.compare(password, returnData.password, function(err, ans){
-				console.log("PASSWORD IS "+ JSON.stringify(ans));
+				// console.log("PASSWORD IS "+ JSON.stringify(ans));
 				if(ans){
 					retdata = {
 									'user_id': returnData.user_id,
 									'ret': 'true'
 							}
-					res.end(JSON.stringify(retdata));
+					res.send(JSON.stringify(retdata));
 				}else{
 					res.send("wrong password");
 				}
 			});
 		}else{
-			res.end("email is not available");
+			res.send("email is not available");
+		}
+	});
+}
+
+exports.confirmationUser = function(req, res){
+
+	console.log("Class users and function confirmationUser");
+
+	var email = req.param('email');
+	var token = req.param('token');
+
+	Users.findOne({where: {email: email, verification_code: token}}).then(function(id){
+		if(id){
+			Users.update({
+				verification_code: null,
+				verified: 1
+			}, {
+				where: {
+					email: email, 
+					verification_code: token
+				}
+			}).then(function(update){
+				if(update[0] == 1){
+					//DO REDIRECT FOR RIGHT TOKEN
+					res.redirect("/user/confirmed");
+				}
+			})
+		}else{
+			//REDIRECT ON ERROR
+			res.redirect("/error");
 		}
 	});
 }

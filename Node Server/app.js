@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -6,6 +5,7 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
+  , email = require('./routes/email')
   , http = require('http')
   , path = require('path');
 
@@ -35,6 +35,33 @@ app.post('/user/register', user.registerUser);
 
 //Login user
 app.post('/user/login', user.loginUser);
+
+//Confirm user
+app.get('/user/confirm', user.confirmationUser);
+
+//Confirmed user redirect to app link
+app.get('/user/confirmed', function(req, res){
+	res.send("Ok");
+});
+
+
+
+
+/////// TEST ///////
+
+//SEND EMAIL TEST
+app.post('/user/email', email.sendForRegister);
+
+
+
+
+
+/////// ERROR PAGE ///////
+
+//ERROR URL
+app.get('/error', function(req, res){
+	res.send("Error");
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
