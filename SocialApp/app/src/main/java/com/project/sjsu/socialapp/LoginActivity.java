@@ -3,7 +3,9 @@ package com.project.sjsu.socialapp;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -32,6 +34,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -44,6 +49,9 @@ import static com.project.sjsu.socialapp.R.id.time;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+
+    SharedPreferences sharedpreferences;
+    public static final String MyPREFERENCES = "SocialApp";
 
     private final String IP = "http://54.183.170.253:3000";
     private final String LOGIN_ROUTE = "/user/login";
@@ -69,6 +77,20 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //Shared Preferences
+        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+
+
+        //CHECK LOGIN OR NOT
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+        String available_id = sharedpreferences.getString("userId", null);
+        if(available_id != null){
+            Intent forwardFront = new Intent(getApplicationContext(), SocialActivity.class);
+            startActivity(forwardFront);
+            finish();
+        }
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
@@ -219,6 +241,21 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         }else if(response[1].equals("email is not verified")){
                             Toast.makeText(getApplicationContext(), "Please verify your email address", Toast.LENGTH_LONG).show();
                         }else {
+                            Log.d("EMAIL DETAILS", response[1].toString());
+                            String user_id = null;
+                            try {
+                                JSONObject object = new JSONObject(response[1].toString());
+                                user_id = object.getString("user_id");
+                                Log.d("ANS", user_id);
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+
+                            SharedPreferences.Editor editor = sharedpreferences.edit();
+                            editor.putString("userId", user_id);
+                            editor.commit();
+
                             // CHANGE TO OTHER PAGE
                             Intent forwardFront = new Intent(getApplicationContext(), SocialActivity.class);
                             startActivity(forwardFront);
