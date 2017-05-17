@@ -100,7 +100,7 @@ public class SocialActivity extends AppCompatActivity {
 //         */
 //        private static final String ARG_SECTION_NUMBER = "section_number";
 //
-//        public PlaceholderFragment() {
+//        public ssPlaceholderFragment() {
 //        }
 //
 //        /**
