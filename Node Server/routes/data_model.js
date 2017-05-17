@@ -56,6 +56,9 @@ exports.Users = sequelize.define('users',{
 		about_me: {
 			type: Sequelize.TEXT,
 		},
+		interests: {
+			type: Sequelize.TEXT,
+		},
 		privacy: {
 			type: Sequelize.INTEGER,
 		},

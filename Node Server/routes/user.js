@@ -136,6 +136,61 @@ exports.confirmationUser = function(req, res){
 	});
 }
 
+exports.userDetails = function(req, res){
+	console.log("Class users and function userDetails");
+
+	var id = req.param('id');
+
+	Users.findOne({where: {user_id: id}}).then(function(userData){
+		if(userData){
+			console.log(userData.dataValues);
+			res.json(userData.dataValues);
+		}else{
+			res.send("error");
+		}
+	});
+}
+
+
+exports.userDetailsUpdate = function(req, res){
+	console.log("Class users and function userDetailsUpdate");
+
+	var id = req.param('user_id');
+	var email = req.param('email');
+	var city = req.param('city');
+	var state = req.param('state');
+	var country = req.param('country');
+	var profession = req.param('profession');
+	var about_me = req.param('about_me');
+	var interests = req.param('interests');
+
+	Users.findOne({where: {user_id: id, email: email}}).then(function(userData){
+		if(userData){
+			Users.update({
+				city: city,
+				state: state,
+				country: country,
+				profession: profession,
+				about_me: about_me,
+				interests: interests
+			}, {
+				where: {
+					email: email,
+					user_id: id
+				}
+			}).then(function(updated){
+				if(updated[0] == 1){
+					res.send("success");
+				}else{
+					res.send("error");
+				}
+			});
+		}else{
+			res.send("error");
+		}
+	});
+}
+
 
 // exports.list = function(req, res){
 //   res.send("respond with a resource");

@@ -44,6 +44,12 @@ app.get('/user/confirm', function(req, res){
 //Confirm user
 app.post('/user/confirmpin', user.confirmationUser);
 
+//Get user's details
+app.post('/user/info', user.userDetails);
+
+//Update user's information
+app.post('/user/info/update', user.userDetailsUpdate);
+
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
 	res.send("Ok");
