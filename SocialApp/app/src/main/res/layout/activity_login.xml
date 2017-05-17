@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
     tools:context="com.project.sjsu.socialapp.LoginActivity">
 
     <!-- Login progress -->
@@ -22,43 +23,63 @@
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
 
         <LinearLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/appicon"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fb"
+
+                />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
 
                 <AutoCompleteTextView
                     android:id="@+id/email"
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="45dp"
                     android:hint="@string/prompt_email"
+                    android:layout_gravity="center"
+                    android:textColorHint="@color/white"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/feed_bg"
                     android:singleLine="true" />
 
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
 
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="45dp"
+                    android:textColor="@color/white"
                     android:hint="@string/prompt_password"
                     android:imeActionId="@+id/login"
                     android:imeActionLabel="@string/action_sign_in_short"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
                     android:maxLines="1"
+                    android:background="@color/feed_bg"
                     android:singleLine="true" />
 
             </android.support.design.widget.TextInputLayout>
@@ -68,18 +89,36 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="30dp"
                 android:text="@string/action_sign_in"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:background="@color/colorPrimaryDark"/>
 
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:id="@+id/register"-->
+            <!--android:text="Sign Up here"-->
+            <!--android:textSize="15sp"-->
+            <!--android:onClick="onClick"-->
+            <!--android:clickable="true"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="200dp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textColorHighlight="@color/white_greyish"-->
+
+            <!--/>-->
             <Button
-                style="?android:textAppearanceSmall"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="140dp"
                 android:id="@+id/register"
-                android:text="@string/register"
-                android:layout_marginTop="35dp"
-                android:textStyle="bold"/>
+                android:text="Sign Up Here...."
+                android:textSize="15dp"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/feed_item_border"/>
 
         </LinearLayout>
     </ScrollView>

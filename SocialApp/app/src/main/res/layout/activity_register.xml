@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
-    <!--xmlns:tools="http://schemas.android.com/tools"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--tools:context="com.project.sjsu.socialapp.RegisterActivity">-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context="com.project.sjsu.socialapp.RegisterActivity">-->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -16,6 +16,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
     tools:context="com.project.sjsu.socialapp.RegisterActivity">
 
 
@@ -40,57 +41,79 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/appicon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fb"
+
+                />
+
             <EditText
                 android:id="@+id/firstName"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
                 android:hint="@string/firstName"
                 android:inputType="text"
+                android:background="@color/feed_bg"
                 android:maxLines="1"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
 
             <EditText
                 android:id="@+id/lastName"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
                 android:hint="@string/lastName"
+                android:layout_marginTop="15dp"
                 android:inputType="text"
+                android:background="@color/feed_bg"
                 android:maxLines="1"
                 android:singleLine="true" />
 
             <EditText
                 android:id="@+id/userName"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
                 android:hint="User Name"
                 android:inputType="text"
+                android:background="@color/feed_bg"
                 android:maxLines="1"
                 android:singleLine="true" />
 
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
+                android:background="@color/feed_bg"
                 android:maxLines="1"
                 android:singleLine="true" />
 
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
                 android:hint="Password"
                 android:inputType="textPassword"
+                android:background="@color/feed_bg"
                 android:maxLines="1"
                 android:singleLine="true" />
 
             <EditText
                 android:id="@+id/confirmPassword"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
                 android:hint="Confirm Password"
                 android:inputType="textPassword"
+                android:background="@color/feed_bg"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -100,6 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/register"
+                android:background="@color/colorPrimaryDark"
                 android:text="@string/register"
                 android:layout_marginTop="35dp"
                 android:textStyle="bold"/>
@@ -108,4 +132,4 @@
     </ScrollView>
 
 </LinearLayout>
-<!--</android.support.constraint.ConstraintLayout>-->
+    <!--</android.support.constraint.ConstraintLayout>-->
