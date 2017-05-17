@@ -36,6 +36,10 @@
         "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/drawable/fb.png",
+        "source": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/res/drawable/fb.png"
+    },
+    {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/drawable/abc_textfield_search_material.xml"
     },
