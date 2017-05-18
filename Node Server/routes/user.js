@@ -191,6 +191,39 @@ exports.userDetailsUpdate = function(req, res){
 	});
 }
 
+exports.userPhotoUpload = function(req, res){
+	console.log("Class users and function userPhotoUpload");
+
+	var user_img = req.param("user_image");
+	var user_id = req.param("user_id");
+
+	var fs = require("fs");
+	var image = user_img;
+	var bitmap = new Buffer(image, 'base64');
+	fs.writeFileSync("public/img/"+user_id+".jpg", bitmap);
+
+	var avatar = IP + "/img/" + user_id+".jpg";
+
+	Users.update({
+		avatar: avatar
+	}, {
+		where: {
+			user_id: user_id
+		}
+	}).then(function(updated){
+		if(updated[0] == 1){
+			retdata = {
+						'avatar': avatar,
+						'ret': 'true'
+				}
+			res.json(retdata);
+			// res.send("success");
+		}else{
+			res.send("error");
+		}
+	});
+}
+
 
 // exports.list = function(req, res){
 //   res.send("respond with a resource");

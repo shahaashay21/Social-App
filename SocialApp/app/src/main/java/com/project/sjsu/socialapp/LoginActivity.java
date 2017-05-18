@@ -1,5 +1,6 @@
 package com.project.sjsu.socialapp;
 
+import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -9,6 +10,8 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
 
@@ -77,6 +80,30 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+        // Permission
+        ArrayList<String> listPermissions = new ArrayList<>();
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            listPermissions.add(Manifest.permission.READ_EXTERNAL_STORAGE);
+        }
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            listPermissions.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        }
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+            listPermissions.add(Manifest.permission.READ_CONTACTS);
+        }
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.GET_ACCOUNTS) != PackageManager.PERMISSION_GRANTED) {
+            listPermissions.add(Manifest.permission.GET_ACCOUNTS);
+        }
+
+        if(listPermissions.size() > 0){
+            ActivityCompat.requestPermissions(this, listPermissions.toArray(new String[listPermissions.size()]), 1);
+        }
 
         //Shared Preferences
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
