@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #Thu May 18 00:50:59 PDT 2017
 base.0=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 renamed.0=classes.dex
 file.0=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
+=======
+#Wed May 17 16:29:02 PDT 2017
+base.0=C\:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=C\:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
+>>>>>>> 11f908e88a1698c815fe581e7a272dc933c98153

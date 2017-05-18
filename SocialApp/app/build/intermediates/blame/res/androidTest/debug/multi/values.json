@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/aashayshah/.android/build-cache/b3ef1d7c4a815698f6c71a737e2b8f7d9095761b/output/res/values/values.xml",
+                    "file": "C:\\Users\\Qolsys\\.android\\build-cache\\17d3013654c16cc64d95abfc8c46346c7cf69abb\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
