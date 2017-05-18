@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="867c43c897aaa9f8f2fe35d52681d1cb34411741">
-        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e55bb0c8d811f7a08765dbd54f44090ed7ac3835/classes.dex" />
+        sha1="f0fac71da0dcabaefed5b7ee69f9803a806b16d4">
+        <dex dex="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_49a8b79e97027a2f2911d06aa7822a8ab3debb70\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5689a3584ef3505f842fc6eb891004a0a84a99c/classes.dex" />
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Tutorial\SJSU\277\TermProject\Social-App\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d55051d37d4a41549ea8367fdcf95ff783fff5a1\classes.dex" />
     </item>
 
 </items>
