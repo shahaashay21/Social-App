@@ -62,6 +62,9 @@ exports.Users = sequelize.define('users',{
 		privacy: {
 			type: Sequelize.INTEGER,
 		},
+		isEmail: {
+			type: Sequelize.INTEGER,
+		},
 		first_name: {
 			type: Sequelize.STRING,
 		},

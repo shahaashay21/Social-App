@@ -89,13 +89,13 @@ public class Friends  extends Fragment {
     public void setUserData(JSONObject userData){
 
         //UserData Variables
-        try {
-
-            mUserName.setText(userData.getString("user_name"));
-            mEmail.setText(userData.getString("email"));
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+//        try {
+//
+//            mUserName.setText(userData.getString("user_name"));
+//            mEmail.setText(userData.getString("email"));
+//        } catch (JSONException e) {
+//            e.printStackTrace();
+//        }
 
     }
 }

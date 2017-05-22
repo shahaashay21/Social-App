@@ -151,6 +151,28 @@ exports.userDetails = function(req, res){
 	});
 }
 
+exports.userSettingDetails = function(req, res){
+	console.log("Class users and function userSettingDetails");
+
+	var id = req.param('id');
+
+	Users.findOne({
+		where: {
+			user_id: id
+		},
+		attributes: [
+			'privacy', 'isEmail', 'user_id'
+		]
+	}).then(function(userData){
+		if(userData){
+			console.log(userData.dataValues);
+			res.json(userData.dataValues);
+		}else{
+			res.send("error");
+		}
+	});
+}
+
 
 exports.userDetailsUpdate = function(req, res){
 	console.log("Class users and function userDetailsUpdate");
@@ -224,6 +246,47 @@ exports.userPhotoUpload = function(req, res){
 	});
 }
 
+exports.userPrivacyUpdate = function(req, res){
+	console.log("Class users and function userPrivacyUpdate");
+
+	var privacy = req.param("privacy");
+	var user_id = req.param("user_id");
+
+	Users.update({
+		privacy: privacy
+	}, {
+		where: {
+			user_id: user_id
+		}
+	}).then(function(updated){
+		if(updated[0] == 1){
+			res.send("success");
+		}else{
+			res.send("error");
+		}
+	});
+}
+
+exports.userIsEmailUpdate = function(req, res){
+	console.log("Class users and function userIsEmailUpdate");
+
+	var isEmail = req.param("isEmail");
+	var user_id = req.param("user_id");
+
+	Users.update({
+		isEmail: isEmail
+	}, {
+		where: {
+			user_id: user_id
+		}
+	}).then(function(updated){
+		if(updated[0] == 1){
+			res.send("success");
+		}else{
+			res.send("error");
+		}
+	});
+}
 
 // exports.list = function(req, res){
 //   res.send("respond with a resource");

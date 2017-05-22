@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Tutorial\\SJSU\\277\\TermProject\\Social-App\\SocialApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+        "outputFile": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fba32c79bdcf42a2f7f507e29545ff922cd09875">
+        sha1="d194365db104539bc511d985d1d8d98cee9012b9">
         <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e55bb0c8d811f7a08765dbd54f44090ed7ac3835/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5689a3584ef3505f842fc6eb891004a0a84a99c/classes.dex" />
     </item>
 

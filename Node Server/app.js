@@ -53,11 +53,20 @@ app.post('/user/confirmpin', user.confirmationUser);
 //Get user's details
 app.post('/user/info', user.userDetails);
 
+//Get user's details
+app.post('/user/settings/info', user.userSettingDetails);
+
 //Update user's information
 app.post('/user/info/update', user.userDetailsUpdate);
 
 //Upload user's photo
 app.post('/user/image', user.userPhotoUpload);
+
+//Update user's privacy
+app.post('/user/privacy/update', user.userPrivacyUpdate);
+
+//Update user's is send email
+app.post('/user/isemail/update', user.userIsEmailUpdate);
 
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
