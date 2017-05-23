@@ -33,7 +33,7 @@ exports.Users = sequelize.define('users',{
 			allowNull: false
 		},
 		avatar: {
-			type: Sequelize.STRING,
+			type: Sequelize.TEXT,
 		},
 		verification_code: {
 			type: Sequelize.TEXT,
@@ -62,9 +62,6 @@ exports.Users = sequelize.define('users',{
 		privacy: {
 			type: Sequelize.INTEGER,
 		},
-		isEmail: {
-			type: Sequelize.INTEGER,
-		},
 		first_name: {
 			type: Sequelize.STRING,
 		},
@@ -77,3 +74,74 @@ exports.Users = sequelize.define('users',{
 		tableName: 'users'
 	}
 );
+
+exports.Feed = sequelize.define('feed',{
+	feed_id: {
+			type: Sequelize.INTEGER,
+			primaryKey: true,
+			autoIncrement: true,
+			allowNull: false
+		},
+	user_id: {
+			type: Sequelize.INTEGER,
+			allowNull: false
+		},
+	image_url: {
+		type: Sequelize.TEXT,
+		},
+	feed_text: {
+		type: Sequelize.TEXT,
+		}
+	},{
+		timestamps: true,
+		freezeTableName: true,
+		tableName: 'feed'
+	}
+);
+
+exports.Friend = sequelize.define('friend',{
+	
+	user_id: {
+			type: Sequelize.INTEGER,
+			allowNull: false
+		},
+	friend_id: {
+			type: Sequelize.INTEGER,
+			allowNull: false
+		},
+	request: {
+		type: Sequelize.INTEGER,
+	},
+	follow: {
+		type:Sequelize.INTEGER,
+	}
+	},{
+		timestamps: true,
+		freezeTableName: true,
+		tableName: 'friend'
+	}
+);
+
+exports.Message = sequelize.define('message',{
+	
+	user_id: {
+			type: Sequelize.INTEGER,
+			allowNull: false
+		},
+	rec_id: {
+			type: Sequelize.INTEGER,
+			allowNull: false
+		},
+	subject: {
+		type: Sequelize.TEXT,
+	},
+	body: {
+		type:Sequelize.TEXT,
+	}
+	},{
+		timestamps: true,
+		freezeTableName: true,
+		tableName: 'message'
+	}
+);
+
