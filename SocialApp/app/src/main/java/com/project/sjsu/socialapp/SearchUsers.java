@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -52,6 +53,10 @@ public class SearchUsers extends AppCompatActivity{
 
             String first_name = null;
             String last_name = null;
+            if(jsonArray.length() == 0) {
+                Toast.makeText(getApplicationContext(), "No result Found " +
+                        "'", Toast.LENGTH_LONG).show();
+            }
             for(int i=0; i < jsonArray.length(); i++){
                 //JSONObject temp = jsonArray.getJSONObject(i);
                 first_name = jsonArray.getJSONObject(i).getString("first_name");
