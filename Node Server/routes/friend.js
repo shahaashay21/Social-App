@@ -42,9 +42,9 @@ exports.getUsers = function(req, res){
 		
 		if(userData){
 			console.log("userData Length: " + userData.length);
-			console.log(JSON.stringify(userData, 0, null));
-			//console.log(userData.dataValues);
-			res.json(userData.dataValues);
+			console.log(JSON.stringify(userData, null, 1));
+			res.json(userData);
+			//res.send({"userData": userData});
 		}else{
 			console.log();
 			res.send("error");

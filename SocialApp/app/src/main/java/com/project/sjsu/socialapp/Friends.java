@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +19,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -56,6 +59,32 @@ public class Friends extends Fragment {
         mMyRequest = (Button) rootView.findViewById(R.id.my_request);
         mSentRequest = (Button) rootView.findViewById(R.id.sent_request);
 
+        mSearchButton.setEnabled(false);
+
+        mSearchUser.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if (s.toString().equals("")){
+                    mSearchButton.setEnabled(false);
+                    Toast.makeText(getContext(), "Please Type something" +
+                            "", Toast.LENGTH_SHORT).show();
+
+                }else {
+                    mSearchButton.setEnabled(true);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
         mSearchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
@@ -69,18 +98,19 @@ public class Friends extends Fragment {
 
         public void attemptSearch(){
             // Store values at the time of the login attempt.
-            String search = mSearchUser.getText().toString();
+            final String search = mSearchUser.getText().toString();
             HttpRequest request = new HttpRequest(getContext());
-            Map<String, String> sendSearchData = new HashMap<>();
+            final Map<String, String> sendSearchData = new HashMap<>();
             sendSearchData.put("search", mSearchUser.getText().toString());
             request.sendPostRequest(IP + USER_SEARCH, sendSearchData, new CallbackInterface() {
                 @Override
                 public void onCallBackComplete(String[] response) {
 
-                        Log.e("RESPONSE IS?", response[0]);
-                        Log.e("RESPONSE OF 1 IS?", response[1].toString());
-                        if(response[0].toString().equals("success")){
+                        Log.e("RESPONSE IS:", response[0]);
+                        Log.e("Response Length:", String.valueOf(response.length));
+                        Log.d("Debug Reponse[1]:", response[1].toString());
 
+                        if(response[0].toString().equals("success")){
 
                             if(response[1].toString().equals("error")){
                                 Toast.makeText(getContext(), "Please try again", Toast.LENGTH_SHORT).show();
@@ -88,6 +118,45 @@ public class Friends extends Fragment {
                                 Toast.makeText(getContext(), "Sucessfully Searched" +
                                         "", Toast.LENGTH_SHORT).show();
                                 Intent searchIntent = new Intent(getActivity(), SearchUsers.class);
+
+                                String user_id = null;
+                                try {
+
+                                    //JSONObject object = new JSONObject(response[1].toString());
+                                    //JSONArray jsonArray = new JSONArray(object.getJSONArray("userData"));
+                                    JSONArray jsonArray = new JSONArray(response[1].toString());
+                                    Log.d("JSONArray Length: ", String.valueOf(jsonArray.length()));
+                                    searchIntent.putExtra("JSONArray", response[1].toString());
+                                    /*for(int i=0; i<jsonArray.length(); i++){
+                                        JSONObject temp = jsonArray.getJSONObject(i);
+                                        user_id = temp.getString("user_id");
+                                        Log.d("user_id: ", user_id);
+                                        searchIntent.putExtra("user_id", temp.getJSONObject("user_id").toString());
+
+                                    }*/
+
+                                    /*user_id = object.getString("user_id");
+                                    Log.d("ANS:", user_id);*/
+
+                                    //searchIntent.putExtra("USER_DATA", json_object.toString());
+                                    /*searchIntent.putExtra("user_id", object.getJSONObject("user_id").toString());
+                                    searchIntent.putExtra("user_name", object.getJSONObject("user_name").toString());
+                                    searchIntent.putExtra("email", object.getJSONObject("email").toString());
+                                    searchIntent.putExtra("avatar", object.getJSONObject("avatar").toString());
+                                    searchIntent.putExtra("city", object.getJSONObject("city").toString());
+                                    searchIntent.putExtra("state", object.getJSONObject("state").toString());
+                                    searchIntent.putExtra("country", object.getJSONObject("country").toString());
+                                    searchIntent.putExtra("profession", object.getJSONObject("profession").toString());
+                                    searchIntent.putExtra("about_me", object.getJSONObject("about_me").toString());
+                                    searchIntent.putExtra("first_name", object.getJSONObject("first_name").toString());
+                                    searchIntent.putExtra("last_name", object.getJSONObject("last_name").toString());*/
+
+
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                                //searchIntent.putStringArrayListExtra("userDat", jsonObj.toStringArrayListExtra);
                                 startActivity(searchIntent);
                             }
 
@@ -99,6 +168,7 @@ public class Friends extends Fragment {
 
 
             });
+
 
 //            Intent forwardSearchIntent = new Intent(getActivity(), SearchUsers.class);
 //                startActivity(forwardSearchIntent);
