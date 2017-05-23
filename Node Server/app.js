@@ -7,7 +7,8 @@ var express = require('express')
   , user = require('./routes/user')
   , email = require('./routes/email')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , friend = require('./routes/friend');
 
 var app = express();
 
@@ -52,6 +53,8 @@ app.post('/user/confirmpin', user.confirmationUser);
 
 //Get user's details
 app.post('/user/info', user.userDetails);
+
+app.post('/friend/search', friend.getUsers);
 
 //Get user's details
 app.post('/user/settings/info', user.userSettingDetails);
