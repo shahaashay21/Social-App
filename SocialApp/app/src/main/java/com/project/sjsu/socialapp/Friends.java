@@ -70,8 +70,8 @@ public class Friends extends Fragment {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (s.toString().equals("")){
                     mSearchButton.setEnabled(false);
-                    Toast.makeText(getContext(), "Please Type something" +
-                            "", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getContext(), "Please Type something" +
+//                            "", Toast.LENGTH_SHORT).show();
 
                 }else {
                     mSearchButton.setEnabled(true);

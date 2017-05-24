@@ -53,7 +53,8 @@
                     android:scheme="http" />
             </intent-filter>
         </activity>
-        <activity android:name=".UserProfile"></activity>
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Message"></activity>
     </application>
 
 </manifest>
