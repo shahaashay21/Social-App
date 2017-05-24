@@ -24,9 +24,8 @@
 
                 <ImageView
                     android:id="@+id/avatar"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:background="@mipmap/ic_launcher"/>
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -36,11 +35,11 @@
                 android:layout_marginTop="25dp">
 
                 <TextView
-                    android:id="@+id/userName"
+                    android:id="@+id/profile_first_last_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold|italic"
-                    android:text="Aashay Shah"
+                    android:textAllCaps="true"
                     android:textSize="30sp"/>
             </LinearLayout>
 
@@ -86,6 +85,7 @@
                 android:layout_marginTop="30dp">
 
                 <LinearLayout
+                    android:id="@+id/linearLayout_profile_user_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
@@ -104,12 +104,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:text="Aashay"/>
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linearLayout_profile_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
@@ -128,12 +128,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:text="shah.aashay21@gmail.com"/>
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linearLayout_profile_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
@@ -152,12 +152,36 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:text="Santa Clara, California, USA"/>
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linearLayout_profile_profession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profession:"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/profile_profession"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_profile_about_me"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
@@ -176,12 +200,12 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:text="I am too cool."/>
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linearLayout_profile_interests"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
@@ -200,8 +224,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:text="Cricket, Volleyball"/>
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 

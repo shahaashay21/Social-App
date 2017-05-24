@@ -170,6 +170,15 @@ public class Settings  extends Fragment {
             });
         }
 
+        Button mTempButton = (Button) rootView.findViewById(R.id.tempClick);
+        mTempButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getContext(), UserProfile.class);
+                i.putExtra("user_id", "50");
+                startActivity(i);
+            }
+        });
 
 
         return rootView;

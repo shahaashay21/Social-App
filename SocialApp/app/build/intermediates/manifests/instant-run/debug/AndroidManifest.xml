@@ -63,6 +63,7 @@
                     android:scheme="http" />
             </intent-filter>
         </activity>
+        <activity android:name="com.project.sjsu.socialapp.UserProfile" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
