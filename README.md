@@ -12,7 +12,7 @@ This is Node JS server that is used to provide REST API to the android applicati
     - Profile management
 - Profiles
     - All user data available
-    - Updte profile
+    - Update profile
     - Browse public profile
 - Settings
     - Visibility (Public or Private)

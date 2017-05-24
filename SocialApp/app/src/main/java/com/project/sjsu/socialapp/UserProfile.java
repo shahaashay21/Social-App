@@ -33,6 +33,8 @@ public class UserProfile extends AppCompatActivity {
     private final String FRIEND_INFO_ROUTE = "/profile/friend/info";
     private final String FRIEND_REQUEST_SEND = "/friend/request/send";
     private final String FRIEND_REQUEST_CANCEL = "/friend/request/cancel";
+    private final String FOLLOW_REQUEST = "/friend/follow";
+    private final String UNFOLLOW_REQUEST = "/friend/unfollow";
 
     private SharedPreferences sharedPreferences;
     public static final String MyPREFERENCES = "SocialApp";
@@ -143,6 +145,18 @@ public class UserProfile extends AppCompatActivity {
                     friendRequestHttpRequest(FRIEND_REQUEST_SEND, idValue, intent_User_id);
                 }else if(addFriendString.equals("Request Sent") || addFriendString.equals("Friends")){
                     friendRequestHttpRequest(FRIEND_REQUEST_CANCEL, idValue, intent_User_id);
+                }
+            }
+        });
+
+        mFollow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String addFollowString = (String) mFollow.getText();
+                if(addFollowString.equals("Following")){
+                    friendRequestHttpRequest(UNFOLLOW_REQUEST, idValue, intent_User_id);
+                }else if(addFollowString.equals("Follow")){
+                    friendRequestHttpRequest(FOLLOW_REQUEST, idValue, intent_User_id);
                 }
             }
         });
@@ -311,6 +325,13 @@ public class UserProfile extends AppCompatActivity {
                     mFollow.setBackground( getResources().getDrawable(R.drawable.button_danger_rounded));
                 }
                 mFollow.setText("Following");
+            }else if(userInfo.getString("follow").equals("0")){
+                if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                    mFollow.setBackgroundDrawable( getResources().getDrawable(R.drawable.button_submit_rounded));
+                } else {
+                    mFollow.setBackground( getResources().getDrawable(R.drawable.button_submit_rounded));
+                }
+                mFollow.setText("Follow");
             }
         }
 
