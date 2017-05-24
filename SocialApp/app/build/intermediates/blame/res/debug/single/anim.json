@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
         "source": "/Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",

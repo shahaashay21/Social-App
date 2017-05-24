@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.project.sjsu.socialapp;
 
 import android.os.Bundle;
@@ -21,3 +22,18 @@ public class Message  extends Fragment {
     }
 }
 
+=======
+package com.project.sjsu.socialapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Message extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_message);
+    }
+}
+>>>>>>> 186a7808ccf4cedf1be50fc06d94fa038e4354da

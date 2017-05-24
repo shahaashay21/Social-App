@@ -6,43 +6,40 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495446231266"
+    timestamp="1495589266927"
     token="764223621027248872"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="192" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="9" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
-    <artifact
-        location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1495441347773"
+        timestamp="1495588548988"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
@@ -73,19 +70,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495446082522"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1495446231266"
+        timestamp="1495589146576"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1495589266927"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />

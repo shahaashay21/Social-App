@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="19"
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -45,6 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.project.sjsu.socialapp.SearchUsers" />
         <activity android:name="com.project.sjsu.socialapp.RegisterActivity" />
         <activity
             android:name="com.project.sjsu.socialapp.EmailConfirmActivity"
@@ -62,6 +63,7 @@
                     android:scheme="http" />
             </intent-filter>
         </activity>
+        <activity android:name="com.project.sjsu.socialapp.UserProfile" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

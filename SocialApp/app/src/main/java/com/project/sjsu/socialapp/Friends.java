@@ -58,7 +58,6 @@ public class Friends extends Fragment {
         mSearchButton = (ImageButton) rootView.findViewById(R.id.search_button);
         mMyRequest = (Button) rootView.findViewById(R.id.my_request);
         mSentRequest = (Button) rootView.findViewById(R.id.sent_request);
-
         mSearchButton.setEnabled(false);
 
         mSearchUser.addTextChangedListener(new TextWatcher() {
@@ -71,8 +70,8 @@ public class Friends extends Fragment {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (s.toString().equals("")){
                     mSearchButton.setEnabled(false);
-                    Toast.makeText(getContext(), "Please Type something" +
-                            "", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getContext(), "Please Type something" +
+//                            "", Toast.LENGTH_SHORT).show();
 
                 }else {
                     mSearchButton.setEnabled(true);
@@ -115,8 +114,8 @@ public class Friends extends Fragment {
                             if(response[1].toString().equals("error")){
                                 Toast.makeText(getContext(), "Please try again", Toast.LENGTH_SHORT).show();
                             }else{
-                                Toast.makeText(getContext(), "Sucessfully Searched" +
-                                        "", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getContext(), "Searched: ' " + search +
+                                        " '", Toast.LENGTH_SHORT).show();
                                 Intent searchIntent = new Intent(getActivity(), SearchUsers.class);
 
                                 String user_id = null;
@@ -125,8 +124,10 @@ public class Friends extends Fragment {
                                     //JSONObject object = new JSONObject(response[1].toString());
                                     //JSONArray jsonArray = new JSONArray(object.getJSONArray("userData"));
                                     JSONArray jsonArray = new JSONArray(response[1].toString());
+
                                     Log.d("JSONArray Length: ", String.valueOf(jsonArray.length()));
                                     searchIntent.putExtra("JSONArray", response[1].toString());
+                                    searchIntent.putExtra("search", search);
                                     /*for(int i=0; i<jsonArray.length(); i++){
                                         JSONObject temp = jsonArray.getJSONObject(i);
                                         user_id = temp.getString("user_id");
