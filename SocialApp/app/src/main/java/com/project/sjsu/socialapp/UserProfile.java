@@ -10,6 +10,7 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -30,6 +31,8 @@ public class UserProfile extends AppCompatActivity {
     private final String IP = "http://54.183.170.253:3000";
     private final String USER_INFO_ROUTE = "/user/info";
     private final String FRIEND_INFO_ROUTE = "/profile/friend/info";
+    private final String FRIEND_REQUEST_SEND = "/friend/request/send";
+    private final String FRIEND_REQUEST_CANCEL = "/friend/request/cancel";
 
     private SharedPreferences sharedPreferences;
     public static final String MyPREFERENCES = "SocialApp";
@@ -87,7 +90,7 @@ public class UserProfile extends AppCompatActivity {
         final String idValue = sharedPreferences.getString("userId", null);
 
         Intent i = getIntent();
-        String intent_User_id = i.getStringExtra("user_id");
+        final String intent_User_id = i.getStringExtra("user_id");
 
         if(idValue.equals(intent_User_id)){
             own_user = true;
@@ -132,9 +135,50 @@ public class UserProfile extends AppCompatActivity {
         }
 
 
+        mAddFriend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String addFriendString = (String) mAddFriend.getText();
+                if(addFriendString.equals("Add Friend")){
+                    friendRequestHttpRequest(FRIEND_REQUEST_SEND, idValue, intent_User_id);
+                }else if(addFriendString.equals("Request Sent") || addFriendString.equals("Friends")){
+                    friendRequestHttpRequest(FRIEND_REQUEST_CANCEL, idValue, intent_User_id);
+                }
+            }
+        });
+
+        getFriendInformation(idValue, intent_User_id);
+
+
+    }
+
+    public void friendRequestHttpRequest(String urlPath, final String user_id, final String friend_id){
+        final HttpRequest request = new HttpRequest(getApplicationContext());
         Map<String, String> sendPostRequestFriendData = new HashMap<>();
-        sendPostRequestFriendData.put("user_id", idValue);
-        sendPostRequestFriendData.put("friend_id", intent_User_id);
+        sendPostRequestFriendData.put("user_id", user_id);
+        sendPostRequestFriendData.put("friend_id", friend_id);
+
+        request.sendPostRequest(IP + urlPath, sendPostRequestFriendData, new CallbackInterface() {
+            @Override
+            public void onCallBackComplete(String[] response) {
+                if(response[0].toString().equals("success")){
+                    if(response[1].toString().equals("success")){
+                        getFriendInformation(user_id, friend_id);
+                    }else {
+                        Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
+                    }
+                }else {
+                    Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+
+    public void getFriendInformation(String user_id, String friend_id){
+        final HttpRequest request = new HttpRequest(getApplicationContext());
+        Map<String, String> sendPostRequestFriendData = new HashMap<>();
+        sendPostRequestFriendData.put("user_id", user_id);
+        sendPostRequestFriendData.put("friend_id", friend_id);
 
         request.sendPostRequest(IP + FRIEND_INFO_ROUTE, sendPostRequestFriendData, new CallbackInterface() {
             @Override
@@ -154,8 +198,6 @@ public class UserProfile extends AppCompatActivity {
                 }
             }
         });
-
-
     }
 
     public void setUserData(JSONObject userInfo) throws JSONException {
@@ -250,6 +292,13 @@ public class UserProfile extends AppCompatActivity {
                     mAddFriend.setBackground( getResources().getDrawable(R.drawable.button_blue_rounded));
                 }
                 mAddFriend.setText("Friends");
+            }else if(userInfo.getString("request").equals("0")){
+                if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                    mAddFriend.setBackgroundDrawable( getResources().getDrawable(R.drawable.button_submit_rounded));
+                } else {
+                    mAddFriend.setBackground( getResources().getDrawable(R.drawable.button_submit_rounded));
+                }
+                mAddFriend.setText("Add Friend");
             }
         }
 
