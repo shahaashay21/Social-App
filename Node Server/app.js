@@ -85,11 +85,30 @@ app.post('/friend/request/sent', friend.friendRequestSentInfo);
 //Get all friend request info
 app.post('/friend/request/get', friend.friendRequestInfo);
 
+
+
 //Send friend request to a friend
 app.post('/friend/request/send', friend.friendSendRequest);
 
-//Reject friend request from a friend
-app.post('/friend/request/reject', friend.friendRejectRequest);
+//Cancel sent friend request to a friend
+app.post('/friend/request/accept', friend.friendRequestAccept);
+
+//Cancel sent friend request to a friend
+app.post('/friend/request/cancel', friend.friendSentRequestCancel);
+
+
+
+
+// //Unfriend to a friend
+// app.post('/friend/request/unfriend', friend.friendUnfriend);
+
+// //Follow to a person
+// app.post('/friend/follow', friend.friendFollow);
+
+// //Unfollow to a person
+// app.post('/friend/unfollow', friend.friendUnfollow);
+
+
 
 //Create post
 app.post('/feed/post', feed.feedCreatePost);
