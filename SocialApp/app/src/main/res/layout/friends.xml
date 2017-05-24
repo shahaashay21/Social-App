@@ -51,6 +51,7 @@
         android:inputType="textPersonName|textWebEmailAddress"
         android:selectAllOnFocus="true"
         android:singleLine="true"
+        android:textColor="@color/black"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/section_label" />
 
