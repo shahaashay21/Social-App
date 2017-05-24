@@ -96,17 +96,11 @@ app.post('/friend/request/accept', friend.friendRequestAccept);
 //Cancel sent friend request to a friend
 app.post('/friend/request/cancel', friend.friendSentRequestCancel);
 
+//Follow to a person
+app.post('/friend/follow', friend.friendFollow);
 
-
-
-// //Unfriend to a friend
-// app.post('/friend/request/unfriend', friend.friendUnfriend);
-
-// //Follow to a person
-// app.post('/friend/follow', friend.friendFollow);
-
-// //Unfollow to a person
-// app.post('/friend/unfollow', friend.friendUnfollow);
+//Unfollow to a person
+app.post('/friend/unfollow', friend.friendUnfollow);
 
 
 

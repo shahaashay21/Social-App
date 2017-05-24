@@ -300,6 +300,79 @@ exports.friendRequestAccept = function(req, res){
 	
 }
 
+//Follow any friend
+exports.friendFollow = function(req, res){
+	console.log("Class friend and function friendRequestAccept");
+
+	var user_id = req.param('user_id');
+	var friend_id = req.param('friend_id');
+
+	var setFriendRequestValue = {};
+	setFriendRequestValue['user_id'] = user_id;
+	setFriendRequestValue['friend_id'] = friend_id;
+	setFriendRequestValue['follow'] = "1";
+
+	Friend.findOne({
+		where: {
+			user_id: user_id,
+			friend_id: friend_id
+		}
+	}).then(followingIs => {
+		if(followingIs){
+			Friend.update({
+					follow: "1"
+				}, {
+					where: {
+						user_id: user_id,
+						friend_id: friend_id
+					}
+			}).then(function(update){
+				if(update[0] == 1){
+					res.send("success");
+				}else{
+					res.send("error");
+				}
+			});
+		}else{
+			Friend.findOrCreate({
+				where: {
+					user_id: user_id,
+					friend_id: friend_id
+				}, defaults: setFriendRequestValue
+			}).spread(function(user,created){
+				if(created){
+					res.send("success");
+				}else{
+					res.send("error");
+				}
+			});
+		}
+	});
+}
+
+// Unfollow any friend
+exports.friendUnfollow = function(req, res){
+	console.log("Class friend and function friendUnfollow");
+
+	var user_id = req.param('user_id');
+	var friend_id = req.param('friend_id');
+
+	Friend.update({
+			follow: "0"
+		}, {
+			where: {
+				user_id: user_id,
+				friend_id: friend_id
+			}
+	}).then(function(update){
+		if(update[0] == 1){
+			res.send("success");
+		}else{
+			res.send("error");
+		}
+	});
+}
+
 //Get all sent requests
 exports.friendRequestSentInfo = function(req, res){
 	console.log("Class friend and function friendRequestSentInfo");
