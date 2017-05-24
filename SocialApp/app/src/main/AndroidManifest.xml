@@ -36,6 +36,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SearchUsers" />
+        <activity android:name=".FriendRequest" />
+        <activity android:name=".SentRequest" />
+
         <activity android:name=".RegisterActivity" />
         <activity
             android:name=".EmailConfirmActivity"
