@@ -9,6 +9,7 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , friend = require('./routes/friend');
+  , feed = require('./routes/feed');
   // , message = require('./routes/message');
 
 var app = express();
@@ -78,25 +79,14 @@ app.post('/user/isemail/update', user.userIsEmailUpdate);
 //Get profile isFriend and isFollow information
 app.post('/profile/friend/info', friend.profileFriendInfo);
 
-//Get all sent friend request info
-app.post('/friend/request/sent', friend.friendRequestSentInfo);
-
-//Get all friend request info
-app.post('/friend/request/get', friend.friendRequestInfo);
-
-//Send friend request to a friend
-app.post('/friend/request/send', friend.friendSendRequest);
-
-//Reject friend request from a friend
-app.post('/friend/request/reject', friend.friendRejectRequest);
-
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
 	res.send("Ok");
 });
 
 
-
+//Create post
+app.post('/feed/post', feed.feedCreatePost);
 
 /////// TEST ///////
 
