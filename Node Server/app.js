@@ -84,6 +84,12 @@ app.post('/friend/request/sent', friend.friendRequestSentInfo);
 //Get all friend request info
 app.post('/friend/request/get', friend.friendRequestInfo);
 
+//Send friend request to a friend
+app.post('/friend/request/send', friend.friendSendRequest);
+
+//Reject friend request from a friend
+app.post('/friend/request/reject', friend.friendRejectRequest);
+
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
 	res.send("Ok");

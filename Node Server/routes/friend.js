@@ -73,6 +73,54 @@ exports.profileFriendInfo = function(req, res){
 	})
 }
 
+//Sent the request to the friend
+exports.friendSendRequest = function(req, res){
+	console.log("Class friend and function friendSendRequest");
+
+	var user_id = req.param('user_id');
+	var friend_id = req.param('friend_id');
+
+	var setFriendRequestValue = {};
+	setFriendRequestValue['user_id'] = user_id;
+	setFriendRequestValue['friend_id'] = friend_id;
+	setFriendRequestValue['request'] = "1";
+
+	Friend.findOrCreate({
+		where: {
+			user_id: user_id,
+			friend_id: friend_id
+		}, defaults: setFriendRequestValue
+	}).spread(function(user,created){
+		if(created){
+			res.send("success");
+		}else{
+			res.send("error");
+		}
+	})
+}
+
+//Reject friend reuqest
+exports.friendRejectRequest = function(req, res){
+	console.log("Class friend and function friendRejectRequest");
+
+	var user_id = req.param('user_id');
+	var friend_id = req.param('friend_id');
+
+	Friend.destroy({
+		where: {
+			user_id: user_id,
+			friend_id: friend_id
+		}
+	}).then(function(del){
+		console.log(del);
+		if(del){
+			res.send("success");
+		}else{
+			res.send("error");
+		}
+	})
+}
+
 //Get all sent requests
 exports.friendRequestSentInfo = function(req, res){
 	console.log("Class friend and function friendRequestSentInfo");
