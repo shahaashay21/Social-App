@@ -29,6 +29,7 @@ public class UserProfile extends AppCompatActivity {
 
     private final String IP = "http://54.183.170.253:3000";
     private final String USER_INFO_ROUTE = "/user/info";
+    private final String FRIEND_INFO_ROUTE = "/profile/friend/info";
 
     private SharedPreferences sharedPreferences;
     public static final String MyPREFERENCES = "SocialApp";
@@ -131,6 +132,28 @@ public class UserProfile extends AppCompatActivity {
         }
 
 
+        Map<String, String> sendPostRequestFriendData = new HashMap<>();
+        sendPostRequestFriendData.put("user_id", idValue);
+        sendPostRequestFriendData.put("friend_id", intent_User_id);
+
+        request.sendPostRequest(IP + FRIEND_INFO_ROUTE, sendPostRequestFriendData, new CallbackInterface() {
+            @Override
+            public void onCallBackComplete(String[] response) {
+                if(response[0].toString().equals("success")){
+                    if(response[1].toString().equals("no friend")){
+                    }else {
+                        try {
+                            JSONObject userData = new JSONObject(response[1].toString());
+                            setFriendButtonData(userData);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }else {
+                    Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
 
     }
@@ -207,6 +230,41 @@ public class UserProfile extends AppCompatActivity {
             }
             return null;
         }
+    }
+
+    public void setFriendButtonData(JSONObject userInfo) throws JSONException {
+        final int sdk = android.os.Build.VERSION.SDK_INT;
+        if(userInfo.getString("request").equals("null") || userInfo.getString("request").equals("")){
+        }else{
+            if(userInfo.getString("request").equals("1")){
+                if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                    mAddFriend.setBackgroundDrawable( getResources().getDrawable(R.drawable.button_danger_rounded));
+                } else {
+                    mAddFriend.setBackground( getResources().getDrawable(R.drawable.button_danger_rounded));
+                }
+                mAddFriend.setText("Request Sent");
+            }else if(userInfo.getString("request").equals("2")){
+                if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                    mAddFriend.setBackgroundDrawable( getResources().getDrawable(R.drawable.button_blue_rounded));
+                } else {
+                    mAddFriend.setBackground( getResources().getDrawable(R.drawable.button_blue_rounded));
+                }
+                mAddFriend.setText("Friends");
+            }
+        }
+
+        if(userInfo.getString("follow").equals("null") || userInfo.getString("follow").equals("")){
+        }else {
+            if(userInfo.getString("follow").equals("1")){
+                if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                    mFollow.setBackgroundDrawable( getResources().getDrawable(R.drawable.button_danger_rounded));
+                } else {
+                    mFollow.setBackground( getResources().getDrawable(R.drawable.button_danger_rounded));
+                }
+                mFollow.setText("Following");
+            }
+        }
+
     }
 
     private String capitalize(final String line) {

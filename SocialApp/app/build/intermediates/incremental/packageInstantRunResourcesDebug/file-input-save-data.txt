@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 23 22:26:49 PDT 2017
+#Tue May 23 23:30:40 PDT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password_3.xml
@@ -35,13 +35,14 @@
 217.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color/abc_btn_colored_text_material.xml
 40.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_bottom.xml
 245.set=ANDROID_RESOURCE
-269.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
+269.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
 186.set=ANDROID_RESOURCE
 115.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/abc_screen_toolbar.xml
 49.set=ANDROID_RESOURCE
 92.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_icon_background.xml
 244.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_edittext.xml
 167.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/searched_friends.xml
+275.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 198.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 121.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 142.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
@@ -49,7 +50,7 @@
 173.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 95.set=ANDROID_RESOURCE
 100.set=ANDROID_RESOURCE
-271.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_track.xml
+271.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_btn_colored_material.xml
 206.set=ANDROID_RESOURCE
 0.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
 252.set=ANDROID_RESOURCE
@@ -123,7 +124,7 @@
 251.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 174.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 110.set=ANDROID_RESOURCE
-272.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+272.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_track.xml
 216.set=ANDROID_RESOURCE
 1.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/users_list.xml
 262.set=ANDROID_RESOURCE
@@ -256,6 +257,7 @@
 12.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 68.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
 43.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_exit.xml
+275.set=ANDROID_RESOURCE
 118.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_spinner.xml
 95.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher_round.png
 149.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
@@ -316,7 +318,7 @@
 165.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 126.set=ANDROID_RESOURCE
 140.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
-273.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg_low.xml
+273.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 196.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/anim/design_fab_in.xml
 171.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png
 38.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
@@ -386,7 +388,7 @@
 166.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 136.set=ANDROID_RESOURCE
 141.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
-274.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+274.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg_low.xml
 197.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
 120.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
 270.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
@@ -460,6 +462,7 @@
 167.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 146.set=ANDROID_RESOURCE
 142.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
+275.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
 198.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color/abc_search_url_text.xml
 121.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_media_action.xml
 271.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
@@ -492,7 +495,7 @@
 181.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 121.set=ANDROID_RESOURCE
 227.set=ANDROID_RESOURCE
-count=275
+count=276
 273.set=ANDROID_RESOURCE
 27.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 77.set=ANDROID_RESOURCE
@@ -650,7 +653,7 @@ count=275
 214.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg.xml
 137.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_switch_thumb_material.xml
 215.set=ANDROID_RESOURCE
-266.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+266.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/button_blue_rounded.xml
 189.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
 112.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
 19.set=ANDROID_RESOURCE
@@ -717,7 +720,7 @@ count=275
 215.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/design_menu_item_action_area.xml
 138.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/registry.xml
 225.set=ANDROID_RESOURCE
-267.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_spinner.xml
+267.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
 113.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/animator-v21/design_appbar_state_list_animator.xml
 29.set=ANDROID_RESOURCE
 90.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/settings.xml
@@ -786,7 +789,7 @@ count=275
 216.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_edittext.xml
 139.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
 235.set=ANDROID_RESOURCE
-268.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
+268.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_spinner.xml
 176.set=ANDROID_RESOURCE
 114.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 39.set=ANDROID_RESOURCE
@@ -799,7 +802,7 @@ count=275
 141.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_narrow_custom.xml
 172.base=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_
 85.set=ANDROID_RESOURCE
-270.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_btn_colored_material.xml
+270.file=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
 242.set=ANDROID_RESOURCE
 183.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE

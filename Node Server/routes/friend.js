@@ -60,7 +60,7 @@ exports.profileFriendInfo = function(req, res){
 
 	Friend.findOne({
 		where: {
-			user_idd: user_id,
+			user_id: user_id,
 			friend_id: friend_id
 		}
 	}).then(function(friendInfo){
