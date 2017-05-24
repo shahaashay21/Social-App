@@ -155,3 +155,5 @@ exports.Message = sequelize.define('message',{
 	}
 );
 
+exports.sequelize = sequelize;
+

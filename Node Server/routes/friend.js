@@ -1,4 +1,5 @@
 var bcrypt = require('bcrypt-nodejs');
+var Sequelize = require('sequelize');
 
 //Files
 var sendEmail = require('./email');
@@ -127,19 +128,13 @@ exports.friendRequestSentInfo = function(req, res){
 
 	var user_id = req.param('user_id');
 
-	Friend.findAll({
-		where: {
-			user_id: user_id,
-			request: "1"
-		}
-	}).then(function(friendInfo){
-		console.log(friendInfo);
-		if(friendInfo){
-			res.json(friendInfo);
-		}else{
-			res.send("no request");
-		}
-	})
+	var q = "select u.user_id, u.user_name, u.email, u.avatar, u.first_name, u.last_name from friend as f left join users as u ON f.friend_id = u.user_id where f.user_id="+user_id+" and f.request='1'";
+	
+
+	db.sequelize.query(q).spread((results, metadata) => {
+		res.json(results);
+	});
+
 }
 
 //Get all frient request
@@ -148,17 +143,10 @@ exports.friendRequestInfo = function(req, res){
 
 	var user_id = req.param('user_id');
 
-	Friend.findAll({
-		where: {
-			friend_id: user_id,
-			request: "1"
-		}
-	}).then(function(friendInfo){
-		if(friendInfo){
-			res.json(friendInfo);
-		}else{
-			res.send("no request");
-		}
-	})
+	var q = "select u.user_id, u.user_name, u.email, u.avatar, u.first_name, u.last_name from friend as f left join users as u ON f.friend_id = u.user_id where f.friend_id="+user_id+" and f.request='1'";
+
+	db.sequelize.query(q).spread((results, metadata) => {
+		res.json(results);
+	});
 }
 
