@@ -73,4 +73,44 @@ exports.profileFriendInfo = function(req, res){
 	})
 }
 
+//Get all sent requests
+exports.friendRequestSentInfo = function(req, res){
+	console.log("Class friend and function friendRequestSentInfo");
+
+	var user_id = req.param('user_id');
+
+	Friend.findAll({
+		where: {
+			user_id: user_id,
+			request: "1"
+		}
+	}).then(function(friendInfo){
+		console.log(friendInfo);
+		if(friendInfo){
+			res.json(friendInfo);
+		}else{
+			res.send("no request");
+		}
+	})
+}
+
+//Get all frient request
+exports.friendRequestInfo = function(req, res){
+	console.log("Class friend and function friendRequestInfo");
+
+	var user_id = req.param('user_id');
+
+	Friend.findAll({
+		where: {
+			friend_id: user_id,
+			request: "1"
+		}
+	}).then(function(friendInfo){
+		if(friendInfo){
+			res.json(friendInfo);
+		}else{
+			res.send("no request");
+		}
+	})
+}
 

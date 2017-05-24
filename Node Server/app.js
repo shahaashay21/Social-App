@@ -78,6 +78,12 @@ app.post('/user/isemail/update', user.userIsEmailUpdate);
 //Get profile isFriend and isFollow information
 app.post('/profile/friend/info', friend.profileFriendInfo);
 
+//Get all sent friend request info
+app.post('/friend/request/sent', friend.friendRequestSentInfo);
+
+//Get all friend request info
+app.post('/friend/request/get', friend.friendRequestInfo);
+
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
 	res.send("Ok");
