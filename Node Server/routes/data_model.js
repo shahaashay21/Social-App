@@ -101,6 +101,11 @@ exports.Feed = sequelize.define('feed',{
 
 exports.Friend = sequelize.define('friend',{
 	
+	id: {
+		type: Sequelize.INTEGER,
+		primaryKey: true,
+		autoIncrement: true
+	},
 	user_id: {
 			type: Sequelize.INTEGER,
 			allowNull: false
@@ -124,6 +129,11 @@ exports.Friend = sequelize.define('friend',{
 
 exports.Message = sequelize.define('message',{
 	
+	id: {
+		type: Sequelize.INTEGER,
+		primaryKey: true,
+		autoIncrement: true
+	},
 	user_id: {
 			type: Sequelize.INTEGER,
 			allowNull: false

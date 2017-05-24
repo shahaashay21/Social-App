@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:2:1-59:12
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
@@ -38,7 +38,7 @@ ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/Andro
 	android:name
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:11:22-78
 application
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:13:5-57:19
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:13:5-58:19
 MERGED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/167a6a6ba660327d582865ead28411c14b13b6a0/output/AndroidManifest.xml:26:5-20
@@ -137,9 +137,13 @@ ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/Andro
 	android:scheme
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:53:21-42
 activity#com.project.sjsu.socialapp.UserProfile
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:56:9-58
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:56:9-49
 	android:name
 		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:56:19-46
+activity#com.project.sjsu.socialapp.Message
+ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:57:9-54
+	android:name
+		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:57:19-42
 uses-sdk
 INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:21:5-23:62

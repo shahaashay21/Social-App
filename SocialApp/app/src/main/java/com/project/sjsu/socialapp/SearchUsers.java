@@ -78,7 +78,7 @@ public class SearchUsers extends AppCompatActivity{
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        ArrayAdapter arrayAdapter = new ArrayAdapter<>(getApplicationContext(),android.R.layout.simple_expandable_list_item_1, searchList);
+        ArrayAdapter arrayAdapter = new ArrayAdapter<>(SearchUsers.this,android.R.layout.simple_expandable_list_item_1, searchList);
         userList.setAdapter(arrayAdapter);
 
         userList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -100,4 +100,4 @@ public class SearchUsers extends AppCompatActivity{
 
 
     }
-    }
+}

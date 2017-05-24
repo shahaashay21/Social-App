@@ -8,9 +8,6 @@ var db = require('./data_model');
 var Users = db.Users;
 var Friend = db.Friend;
 var IP = "http://54.183.170.253:3000";
-var CONFIRMATION_URL = "/user/confirm";
-
-Users.sync();
 
 
 
@@ -53,3 +50,27 @@ exports.getUsers = function(req, res){
 		console.log(JSON.stringify(error, 0, null));
 	});
 }
+
+//Get friend information
+exports.profileFriendInfo = function(req, res){
+	console.log("Class friend and function profileFriendInfo");
+
+	var user_id = req.param('user_id');
+	var friend_id = req.param('friend_id');
+
+	Friend.findOne({
+		where: {
+			user_idd: user_id,
+			friend_id: friend_id
+		}
+	}).then(function(friendInfo){
+		if(friendInfo){
+			console.log(friendInfo.dataValues);
+			res.json(friendInfo.dataValues);
+		}else{
+			res.send("no friend");
+		}
+	})
+}
+
+

@@ -64,6 +64,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.project.sjsu.socialapp.UserProfile" />
+        <activity android:name="com.project.sjsu.socialapp.Message" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
