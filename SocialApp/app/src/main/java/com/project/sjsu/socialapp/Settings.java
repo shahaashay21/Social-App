@@ -175,7 +175,7 @@ public class Settings  extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getContext(), UserProfile.class);
-                i.putExtra("user_id", "50");
+                i.putExtra("user_id", "67");
                 startActivity(i);
             }
         });

@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -52,6 +53,8 @@ public class UserProfile extends AppCompatActivity {
     private LinearLayout mProfessionLayout;
     private LinearLayout mAboutMeLayout;
     private LinearLayout mInterestsLayout;
+
+    private LinearLayout linearLayoutOwn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +79,8 @@ public class UserProfile extends AppCompatActivity {
         mProfessionLayout = (LinearLayout) findViewById(R.id.linearLayout_profile_profession);
         mAboutMeLayout = (LinearLayout) findViewById(R.id.linearLayout_profile_about_me);
         mInterestsLayout = (LinearLayout) findViewById(R.id.linearLayout_profile_interests);
+
+        linearLayoutOwn = (LinearLayout) findViewById(R.id.linearLayout_own);
 
         sharedPreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
         final String idValue = sharedPreferences.getString("userId", null);
@@ -121,6 +126,10 @@ public class UserProfile extends AppCompatActivity {
             };
         });
 
+        if(own_user){
+            linearLayoutOwn.setVisibility(LinearLayout.GONE);
+        }
+
 
 
 
@@ -158,7 +167,13 @@ public class UserProfile extends AppCompatActivity {
         }
 
         if(userInfo.getString("avatar").equals("null") || userInfo.getString("avatar").equals("")){
-
+//            mAvatar.setBackground(getDrawable(R.drawable.default_user));
+            final int sdk = android.os.Build.VERSION.SDK_INT;
+            if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                mAvatar.setBackgroundDrawable( getResources().getDrawable(R.drawable.default_user) );
+            } else {
+                mAvatar.setBackground( getResources().getDrawable(R.drawable.default_user));
+            }
         }else {
             ShowImage show = new ShowImage(mAvatar, userInfo.getString("avatar"));
             show.execute();
