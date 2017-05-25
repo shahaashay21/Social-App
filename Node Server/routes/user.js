@@ -36,6 +36,7 @@ exports.registerUser = function(req, res){
 			userValue['email'] = email;
 			userValue['password'] = hash;
 			userValue['verification_code'] = token;
+			userValue['avatar'] = "http://54.183.170.253:3000/img/default_user.jpg";
 
 			var URL = IP+CONFIRMATION_URL+"?email="+email;
 

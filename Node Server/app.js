@@ -9,6 +9,7 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , friend = require('./routes/friend')
+  , message = require('./routes/message')
   , feed = require('./routes/feed');
   // , message = require('./routes/message');
 
@@ -96,16 +97,26 @@ app.post('/friend/request/accept', friend.friendRequestAccept);
 //Cancel sent friend request to a friend
 app.post('/friend/request/cancel', friend.friendSentRequestCancel);
 
+// //Unfriend to a friend
+// app.post('/friend/request/unfriend', friend.friendUnfriend);
+
 //Follow to a person
 app.post('/friend/follow', friend.friendFollow);
 
 //Unfollow to a person
 app.post('/friend/unfollow', friend.friendUnfollow);
 
+//get message list
+app.post('/message/search', message.getMessages);
 
+//get message list
+app.post('/message/send', message.createMessage);
 
 //Create post
 app.post('/feed/post', feed.feedCreatePost);
+
+//Get post
+app.post('/feed/get', feed.feedGetPost);
 
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){

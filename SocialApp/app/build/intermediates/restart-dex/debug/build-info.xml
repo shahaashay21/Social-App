@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495646941087"
+    timestamp="1495651910956"
     token="764223621027248872"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="456" />
+        duration="1043" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="289" />
     <task
         name="verifier"
-        duration="4" />
+        duration="27" />
 
     <artifact
         location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1495646941087"
+        timestamp="1495651910956"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"

@@ -150,6 +150,7 @@ public class Front  extends Fragment{
                         if(response[0].toString().equals("success"))
                         {
                             Toast.makeText(getContext(), "Your status has been posted", Toast.LENGTH_SHORT).show();
+                            mPostText.setText("");
                         }
                         else
                         {
