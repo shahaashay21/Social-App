@@ -143,7 +143,7 @@ public class SocialActivity extends AppCompatActivity {
                     Front tab1 = new Front();
                     return tab1;
                 case 1:
-                    Registry tab2 = new Registry();
+                    Messages tab2 = new Messages();
                     return tab2;
                 case 2:
                     Profiles tab3 = new Profiles();
@@ -171,7 +171,7 @@ public class SocialActivity extends AppCompatActivity {
                 case 0:
                     return "Front";
                 case 1:
-                    return "Registry";
+                    return "Messages";
                 case 2:
                     return "Profiles";
                 case 3:

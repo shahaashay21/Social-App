@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout-v21/notification_action.xml"
+        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

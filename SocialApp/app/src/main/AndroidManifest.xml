@@ -38,6 +38,7 @@
         <activity android:name=".SearchUsers" />
         <activity android:name=".FriendRequest" />
         <activity android:name=".SentRequest" />
+        <activity android:name=".PrivateMessage" />
 
         <activity android:name=".RegisterActivity" />
         <activity

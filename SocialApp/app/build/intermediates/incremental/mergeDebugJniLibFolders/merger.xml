@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/aashayshah/Documents/B/Social App/SocialApp/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\debug\jniLibs"/></dataSet></merger>

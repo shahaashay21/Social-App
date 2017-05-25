@@ -1,195 +1,199 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:2:1-63:12
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:3:5-41
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:8:5-71
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:8:22-68
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:9:5-72
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:9:5-72
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:9:22-69
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:9:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:10:5-80
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:10:22-77
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:11:5-81
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:11:22-78
 application
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:13:5-61:19
-MERGED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/167a6a6ba660327d582865ead28411c14b13b6a0/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/7c1c58809b493a5ec87d81f86a3193cff1b8ad01/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.0] /Users/aashayshah/.android/build-cache/8c8ef6d4cbae493b24d27a970b83e0c34aab4d03/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.0] /Users/aashayshah/.android/build-cache/61753c6cc443e3eff1287f5dffc87ff4a248c2ea/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/aashayshah/.android/build-cache/0547ca028e61845b2bd22f1038234524995fcaa3/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/aashayshah/.android/build-cache/38c06423fa11c0a101b6c04081f6c7ad7bf347e7/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/aashayshah/.android/build-cache/b170934d55fe7808b6ca1ecf39ba5b4a37229712/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/aashayshah/.android/build-cache/dc64d19cee80c58b9386a401e8bf0721da9ff0c1/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] /Users/aashayshah/.android/build-cache/9bd1f13669c2eea402221330fe27ada707d8d1b4/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.volley:volley:1.0.0] /Users/aashayshah/.android/build-cache/8a2b204b542e6eaf70faf2a3a4a3f36b322035eb/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashayshah/.android/build-cache/06e9d1afbfd6b449ccd182233eaa8c8daf2e76a0/output/AndroidManifest.xml:9:5-20
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:13:5-62:19
+MERGED from [com.android.support:design:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fc38f422cffe23d4773e3f6a2a51ac6f85fc8eda\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\622fa2822f845855248aa8c211acaa2f01190a70\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\f9a017e502e40b18ed4c2dcbfb2e054dff09284a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\86d397d6e7600d5a89d59ec3261e62bca335b040\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\da76242a535f813f631ed55bcc3d457bf9c1065d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\aa16927f5c570e85e18c45d409f791c47d68bc08\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\70cd26225133f9cad148986ba6dd2840616917e3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\1a28525100743fd738f41ca5e47f35a3144e424f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\7e19d27fea8a132dff2ac63dbcb28c60a3989b3e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\9d20cacc6e7c48cd58d7c154026980db20b0e5b2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fd53d248d0e42e9f63b93cd64c12ce3b4184d01a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hugo Quiroz\.android\build-cache\2cb1846d1028c3e7914afbc1e26d4a66b5e078af\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hugo Quiroz\.android\build-cache\d0a0c2f1172d36813140735cccf8ddd4b0b2fae3\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:19:9-35
 	android:roundIcon
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:18:9-54
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:18:9-54
 	android:allowBackup
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:16:9-43
 	android:theme
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:20:9-40
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:14:9-42
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:14:9-42
 meta-data#asset_statements
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:21:9-23:59
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:21:9-23:59
 	android:resource
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:23:13-56
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:22:13-44
 activity#com.project.sjsu.socialapp.SocialActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:25:9-28:59
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:25:9-28:59
 	android:label
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:27:13-45
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:27:13-45
 	android:theme
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:26:13-43
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:26:13-43
 activity#com.project.sjsu.socialapp.LoginActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:29:9-37:20
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:31:13-38
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:31:13-38
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:30:13-42
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:30:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:32:13-36:29
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:33:17-69
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:33:25-66
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:35:17-77
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:35:27-74
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:35:27-74
 activity#com.project.sjsu.socialapp.SearchUsers
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:38:9-49
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:38:9-49
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:38:19-46
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:38:19-46
 activity#com.project.sjsu.socialapp.FriendRequest
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:39:9-51
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:39:9-51
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:39:19-48
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:39:19-48
 activity#com.project.sjsu.socialapp.SentRequest
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:40:9-49
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:40:9-49
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:40:19-46
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:40:19-46
+activity#com.project.sjsu.socialapp.PrivateMessage
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:41:9-52
+	android:name
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:41:19-49
 activity#com.project.sjsu.socialapp.RegisterActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:42:9-54
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:43:9-54
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:42:19-51
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:43:19-51
 activity#com.project.sjsu.socialapp.EmailConfirmActivity
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:43:9-58:20
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:44:9-59:20
 	android:launchMode
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:45:13-43
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:46:13-43
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:45:13-49
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:46:13-57:29
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:47:13-58:29
 	android:autoVerify
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:46:28-53
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:47:28-53
 action#android.intent.action.VIEW
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:47:17-69
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:47:25-66
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:49:17-76
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:50:17-76
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:49:27-73
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:50:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:50:17-78
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:51:17-78
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:50:27-75
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:51:27-75
 data
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:52:17-56:45
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:53:17-57:45
 	android:path
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:54:21-49
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:55:21-49
 	android:host
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:53:21-50
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:54:21-50
 	android:port
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:55:21-40
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:56:21-40
 	android:scheme
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:56:21-42
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:57:21-42
 activity#com.project.sjsu.socialapp.UserProfile
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:59:9-49
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:60:9-49
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:59:19-46
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:60:19-46
 activity#com.project.sjsu.socialapp.Message
-ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:60:9-54
+ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:61:9-54
 	android:name
-		ADDED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml:60:19-42
+		ADDED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml:61:19-42
 uses-sdk
-INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/167a6a6ba660327d582865ead28411c14b13b6a0/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/7c1c58809b493a5ec87d81f86a3193cff1b8ad01/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/aashayshah/.android/build-cache/24822880e2d0342156ad27e827548bddd3ad8f52/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.0] /Users/aashayshah/.android/build-cache/8c8ef6d4cbae493b24d27a970b83e0c34aab4d03/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.0] /Users/aashayshah/.android/build-cache/61753c6cc443e3eff1287f5dffc87ff4a248c2ea/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/aashayshah/.android/build-cache/0547ca028e61845b2bd22f1038234524995fcaa3/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/aashayshah/.android/build-cache/38c06423fa11c0a101b6c04081f6c7ad7bf347e7/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/aashayshah/.android/build-cache/b170934d55fe7808b6ca1ecf39ba5b4a37229712/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/aashayshah/.android/build-cache/dc64d19cee80c58b9386a401e8bf0721da9ff0c1/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] /Users/aashayshah/.android/build-cache/9bd1f13669c2eea402221330fe27ada707d8d1b4/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.volley:volley:1.0.0] /Users/aashayshah/.android/build-cache/8a2b204b542e6eaf70faf2a3a4a3f36b322035eb/output/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashayshah/.android/build-cache/06e9d1afbfd6b449ccd182233eaa8c8daf2e76a0/output/AndroidManifest.xml:5:5-7:41
+INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fc38f422cffe23d4773e3f6a2a51ac6f85fc8eda\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\622fa2822f845855248aa8c211acaa2f01190a70\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\f9a017e502e40b18ed4c2dcbfb2e054dff09284a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\86d397d6e7600d5a89d59ec3261e62bca335b040\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\c383babb2c48006282022302f6b6f013367bb0ac\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\da76242a535f813f631ed55bcc3d457bf9c1065d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\aa16927f5c570e85e18c45d409f791c47d68bc08\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\70cd26225133f9cad148986ba6dd2840616917e3\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\1a28525100743fd738f41ca5e47f35a3144e424f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\7e19d27fea8a132dff2ac63dbcb28c60a3989b3e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\9d20cacc6e7c48cd58d7c154026980db20b0e5b2\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fd53d248d0e42e9f63b93cd64c12ce3b4184d01a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hugo Quiroz\.android\build-cache\2cb1846d1028c3e7914afbc1e26d4a66b5e078af\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hugo Quiroz\.android\build-cache\d0a0c2f1172d36813140735cccf8ddd4b0b2fae3\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fc38f422cffe23d4773e3f6a2a51ac6f85fc8eda\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aashayshah/Documents/B/Social App/SocialApp/app/src/main/AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/aashayshah/.android/build-cache/51cc23e632c25766ce903ab79e09003bd14c16ca/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/167a6a6ba660327d582865ead28411c14b13b6a0/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/aashayshah/.android/build-cache/7c1c58809b493a5ec87d81f86a3193cff1b8ad01/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/aashayshah/.android/build-cache/24822880e2d0342156ad27e827548bddd3ad8f52/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.0] /Users/aashayshah/.android/build-cache/8c8ef6d4cbae493b24d27a970b83e0c34aab4d03/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] /Users/aashayshah/.android/build-cache/61753c6cc443e3eff1287f5dffc87ff4a248c2ea/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] /Users/aashayshah/.android/build-cache/0547ca028e61845b2bd22f1038234524995fcaa3/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] /Users/aashayshah/.android/build-cache/38c06423fa11c0a101b6c04081f6c7ad7bf347e7/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] /Users/aashayshah/.android/build-cache/b170934d55fe7808b6ca1ecf39ba5b4a37229712/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] /Users/aashayshah/.android/build-cache/dc64d19cee80c58b9386a401e8bf0721da9ff0c1/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] /Users/aashayshah/.android/build-cache/9bd1f13669c2eea402221330fe27ada707d8d1b4/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fc38f422cffe23d4773e3f6a2a51ac6f85fc8eda\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\622fa2822f845855248aa8c211acaa2f01190a70\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\f9a017e502e40b18ed4c2dcbfb2e054dff09284a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\86d397d6e7600d5a89d59ec3261e62bca335b040\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\c383babb2c48006282022302f6b6f013367bb0ac\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\da76242a535f813f631ed55bcc3d457bf9c1065d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\aa16927f5c570e85e18c45d409f791c47d68bc08\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\70cd26225133f9cad148986ba6dd2840616917e3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\1a28525100743fd738f41ca5e47f35a3144e424f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\7e19d27fea8a132dff2ac63dbcb28c60a3989b3e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\9d20cacc6e7c48cd58d7c154026980db20b0e5b2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fd53d248d0e42e9f63b93cd64c12ce3b4184d01a\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fc38f422cffe23d4773e3f6a2a51ac6f85fc8eda\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.0] /Users/aashayshah/.android/build-cache/52c2ee8fa7f03692757d3004496b57fb97a22706/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Hugo Quiroz\.android\build-cache\fc38f422cffe23d4773e3f6a2a51ac6f85fc8eda\output\AndroidManifest.xml:26:9-47
