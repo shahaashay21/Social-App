@@ -144,7 +144,7 @@ public class Messages extends Fragment {
                                 }
                                 ArrayAdapter arrayAdapter = new ArrayAdapter<>(getContext(),android.R.layout.simple_expandable_list_item_1, searchList);
                                 messageList.setAdapter(arrayAdapter);
-                                messageList.setAdapter(arrayAdapter);
+                                //messageList.setAdapter(arrayAdapter);
 /*------------This portion will create an array list from our JSONArray post request ---------------------------*/
 
 

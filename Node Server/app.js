@@ -109,6 +109,8 @@ app.post('/friend/unfollow', friend.friendUnfollow);
 //get message list
 app.post('/message/search', message.getMessages);
 
+app.post('/message/email', message.getEmail);
+
 //get message list
 app.post('/message/send', message.createMessage);
 
@@ -116,7 +118,10 @@ app.post('/message/send', message.createMessage);
 app.post('/feed/post', feed.feedCreatePost);
 
 //Get post
-app.post('/feed/get', feed.feedGetPost);
+app.get('/feed/get/:user_id', feed.feedGetPost);
+
+//Get feeed
+app.post('/feed/getfeed', feed.feedUpdate);
 
 //Confirmed user redirect to app link
 app.get('/user/confirmed', function(req, res){
