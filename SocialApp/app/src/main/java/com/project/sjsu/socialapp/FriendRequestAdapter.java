@@ -56,24 +56,24 @@ public class FriendRequestAdapter extends BaseAdapter implements ListAdapter {
         listItemText.setText(list.get(position));
 
         //Handle buttons and add onClickListeners
-        Button acceptBtn = (Button)view.findViewById(R.id.accept_button);
-        Button rejectBtn = (Button)view.findViewById(R.id.reject_button);
-
-        acceptBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                //do something
-                list.remove(position); //or some other task
-                notifyDataSetChanged();
-            }
-        });
-        rejectBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                //do something
-                notifyDataSetChanged();
-            }
-        });
+//        Button acceptBtn = (Button)view.findViewById(R.id.accept_button);
+//        Button rejectBtn = (Button)view.findViewById(R.id.reject_button);
+//
+//        acceptBtn.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v) {
+//                //do something
+//                list.remove(position); //or some other task
+//                notifyDataSetChanged();
+//            }
+//        });
+//        rejectBtn.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v) {
+//                //do something
+//                notifyDataSetChanged();
+//            }
+//        });
 
         return view;
     }

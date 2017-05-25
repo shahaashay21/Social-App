@@ -34,6 +34,7 @@ import java.util.Map;
 public class Friends extends Fragment {
     private final String IP = "http://54.183.170.253:3000";
     private final String USER_FRIEND_REQUEST = "/friend/request/get";
+    private final String USER_SENT_REQUEST = "/friend/request/sent";
     private final String USER_INFO_ROUTE = "/user/info";
     private final String UPDATE_INFO_ROUTE = "/user/info/update";
     private final String USER_SEARCH = "/friend/search";
@@ -84,8 +85,10 @@ public class Friends extends Fragment {
 
             @Override
             public void onClick(View view){
-                Intent forwardSentRequest = new Intent(getActivity(), SentRequest.class);
-                startActivity(forwardSentRequest);
+//                Intent forwardSentRequest = new Intent(getActivity(), SentRequest.class);
+//                startActivity(forwardSentRequest);
+//
+                attemptSentRequest();
 
             }
 
@@ -128,6 +131,50 @@ public class Friends extends Fragment {
     }
 
 
+
+
+    public void attemptSentRequest(){
+        if(USER_ID == null){
+            Intent forwardLoginIntent = new Intent(getActivity(), LoginActivity.class);
+            startActivity(forwardLoginIntent);
+            getActivity().finish();
+        }else{
+            final HttpRequest request = new HttpRequest(getContext());
+            Map<String, String> sendPostRequestData = new HashMap<>();
+            sendPostRequestData.put("user_id", USER_ID);
+
+            request.sendPostRequest(IP + USER_SENT_REQUEST, sendPostRequestData, new CallbackInterface() {
+                @Override
+                public void onCallBackComplete(String[] response) {
+
+                    Log.e("First Response", response[0].toString());
+                    Log.e("Second Response", response[1].toString());
+                    if(response[0].toString().equals("success")){
+                        if(response[0].toString().equals("error")){
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString("userId", null);
+                            editor.commit();
+
+                            Intent intent = new Intent(getActivity(), LoginActivity.class);
+                            startActivity(intent);
+                            getActivity().finish();
+                        }else{
+
+                            //JSONArray userData = new JSONArray(response[1].toString());
+                            Intent i = new Intent(getActivity(), SentRequest.class);
+                            i.putExtra("userData", response[1].toString() );
+                            startActivity(i);
+                        }
+                    }
+
+
+                }
+            });
+
+        }
+
+
+    }
 
     public void attemtMyRequest(){
 
