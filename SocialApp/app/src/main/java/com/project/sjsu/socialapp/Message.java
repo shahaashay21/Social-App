@@ -77,7 +77,7 @@ public class Message extends AppCompatActivity {
                 sendData.put("post_image", mRecipient.getText().toString());
                 sendData.put("user_id", mSubject.getText().toString());
                 sendData.put("feed_text", mBody.getText().toString());
-
+				// Set connection to database
                 request.sendPostRequest(IP + MESSAGE_SEND, sendData, new CallbackInterface() {
                     @Override
                     public void onCallBackComplete(String[] response) {
