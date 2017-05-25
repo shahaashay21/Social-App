@@ -134,7 +134,7 @@ public class Messages extends Fragment {
                                         Log.d("user id is: ", user_id);
                                         Log.d("user_id: ", first_name);
                                         searchList.add(first_name +" " + last_name);
-                                        searchId.add(user_id);
+                                        searchId.add(Integer.toString(i));
                                         //searchList.add(user_id);
                                         //searchList2.add(last_name);
                                     }
@@ -183,15 +183,16 @@ public class Messages extends Fragment {
         messageList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String SelectedItem = searchList.get(position);
-                String SelectedId = searchId.get(position);
+                String SelectedItem = searchList.get(position);//this is the name
+                String SelectedId = searchId.get(position);//this is user id
 
                 Intent messageIntent = new Intent(getContext(), PrivateMessage.class);
                 messageIntent.putExtra("JSONArray", myJSONArray);
+                messageIntent.putExtra("array_id", SelectedId);
                 Log.d("Data sent ahead are: ",SelectedId);
                 //Log.d("User id passed is: ", user_id);
                 startActivity(messageIntent);
-                //Toast.makeText(getApplicationContext(), SelectedItem, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), SelectedItem, Toast.LENGTH_SHORT).show();
                 Toast.makeText(getContext(), SelectedId, Toast.LENGTH_SHORT).show();
 
             }

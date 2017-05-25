@@ -6,28 +6,28 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495710948233"
+    timestamp="1495716846562"
     token="-7350096550351178288"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1366" />
+        duration="1371" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="199" />
+        duration="233" />
     <task
         name="verifier"
-        duration="119" />
+        duration="88" />
 
     <artifact
-        location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\outputs\apk\app-debug.apk"
@@ -84,13 +84,13 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495710948233"
+        timestamp="1495716846562"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\outputs\apk\app-debug.apk"
