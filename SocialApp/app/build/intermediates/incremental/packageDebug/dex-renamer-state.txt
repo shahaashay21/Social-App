@@ -1,7 +1,7 @@
-#Wed May 24 09:21:03 PDT 2017
-base.0=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5689a3584ef3505f842fc6eb891004a0a84a99c
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e55bb0c8d811f7a08765dbd54f44090ed7ac3835/classes.dex
-base.1=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e55bb0c8d811f7a08765dbd54f44090ed7ac3835
-file.0=/Users/aashayshah/Documents/B/Social App/SocialApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5689a3584ef3505f842fc6eb891004a0a84a99c/classes.dex
+#Thu May 25 05:54:33 PDT 2017
+base.0=C\:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cc5d3ae1cc7b631fb65377566042390656c45c69
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cec16c569838270608ba5db99477724c64c9790c\\classes.dex
+base.1=C\:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cec16c569838270608ba5db99477724c64c9790c
+file.0=C\:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cc5d3ae1cc7b631fb65377566042390656c45c69\\classes.dex

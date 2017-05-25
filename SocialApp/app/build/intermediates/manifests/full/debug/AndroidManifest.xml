@@ -48,6 +48,7 @@
         <activity android:name="com.project.sjsu.socialapp.SearchUsers" />
         <activity android:name="com.project.sjsu.socialapp.FriendRequest" />
         <activity android:name="com.project.sjsu.socialapp.SentRequest" />
+        <activity android:name="com.project.sjsu.socialapp.PrivateMessage" />
         <activity android:name="com.project.sjsu.socialapp.RegisterActivity" />
         <activity
             android:name="com.project.sjsu.socialapp.EmailConfirmActivity"

@@ -13,7 +13,7 @@
         tools:layout_editor_absoluteX="8dp">
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/message_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -25,11 +25,11 @@
             android:layout_alignParentEnd="true" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/message_subject"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/editText4"
+            android:layout_below="@+id/message_user"
             android:layout_marginTop="35dp"
             android:ems="10"
             android:hint="Subject:"
@@ -37,24 +37,24 @@
             android:layout_alignParentEnd="true" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/message_body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/editText5"
+            android:layout_below="@+id/message_subject"
             android:layout_marginTop="45dp"
             android:ems="10"
             android:hint="Type your message here..."
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/send_button"
             style="@android:style/Widget.Material.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/editText7"
+            android:layout_below="@+id/message_body"
             android:layout_marginStart="57dp"
             android:layout_marginTop="43dp"
             android:background="@android:drawable/ic_menu_send"
@@ -62,12 +62,13 @@
             android:textColor="@color/colorAccent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/cancel_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/button"
+            android:layout_alignBaseline="@+id/send_button"
+            android:layout_alignBottom="@+id/send_button"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="57dp"
+            android:layout_marginEnd="58dp"
             android:background="@android:drawable/ic_menu_close_clear_cancel"
             android:backgroundTint="@color/feed_item_border" />
 
