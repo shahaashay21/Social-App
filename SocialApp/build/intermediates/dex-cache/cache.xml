@@ -3,30 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\libs\volley.jar"
+        jar="C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_dee58d18f55f455693ccdaa7149ad38439a466c2\classes.dex" />
+        sha1="028f30e4bf6e22fc2ae9c2e00397fd75687299a8">
+        <dex dex="C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0eaef5005183c1deb351281fb777ec84003662f7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fcada38879dc480492b88da5225ded28f18bad43">
-        <dex dex="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cec16c569838270608ba5db99477724c64c9790c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="C:\AndroidProjects\friendzone_app_master\working_progress\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cc5d3ae1cc7b631fb65377566042390656c45c69\classes.dex" />
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bb57c27da524d4cc8051c7c65c74a83aeff66cae\classes.dex" />
     </item>
 
 </items>

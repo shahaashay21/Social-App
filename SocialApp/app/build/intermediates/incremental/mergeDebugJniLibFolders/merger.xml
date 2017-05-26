@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Final-Social\SocialApp\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\Final-Social\SocialApp\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\debug\jniLibs"/></dataSet></merger>

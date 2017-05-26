@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Vansh\\.android\\build-cache\\7b4600848e4bc948f17129540f658b9fe6d2cfd4\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\26d0f74cb8e2240ff896ff8003649e5722cf85a9\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Qolsys\\.android\\build-cache\\17d3013654c16cc64d95abfc8c46346c7cf69abb\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

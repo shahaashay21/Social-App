@@ -1,203 +1,203 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:2:1-65:12
 	package
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:7:5-71
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:7:22-68
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:8:5-71
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:8:22-68
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:8:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:9:5-72
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:9:5-72
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:9:22-69
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:9:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:11:22-78
 application
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:13:5-63:19
-MERGED from [com.android.support:design:25.3.0] C:\Users\Vansh\.android\build-cache\3a5d6aaba260df09a539c22f4353897d82af6042\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Vansh\.android\build-cache\f51ad329e713d65c8918963e67e24fe7877570a2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Vansh\.android\build-cache\2e534d6c9f02fb02b2015210f6f591760a770db1\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Vansh\.android\build-cache\4c013e5dc5c25d944f5393012095bd4acb5aa570\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.0] C:\Users\Vansh\.android\build-cache\a6fedca39d6d0b3c421ae1b5ba77be83afab396c\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Vansh\.android\build-cache\08b8b17fdad34bc70782f53ece6840322d444865\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Vansh\.android\build-cache\69fb167d7289bc0c802663d9a1603ddd7f788844\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Vansh\.android\build-cache\55f7b177107b1c23ac53936c1e28d7c426b1d935\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Vansh\.android\build-cache\3459ee2224fa377623f50bed32d8168f423d5b29\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Vansh\.android\build-cache\c758222f689cd83f500951a784ce80b2476bd55a\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Vansh\.android\build-cache\2e5a4b7a7873f529f36291acc5d26a0fcb204aca\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\Vansh\.android\build-cache\1b7578a5f645c3a0c0eb9b71f709bf10b1f81ec7\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Vansh\.android\build-cache\9404cf08d8f3805bd10ee62a2ca36573cf0767f5\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:13:5-63:19
+MERGED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\ac7685afbeb62d979265eab418d7838fb95b9f7f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\2684397c4545cbf2946d74d931a3d26306cc12a7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\432a8d379e4c1806cc6961640b28f33b810e99ee\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\468f95d67c4af814f18742b2eaad1000d2b722bc\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Qolsys\.android\build-cache\8a6d3abc4388747843294e5b12fce279f49f7a05\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Qolsys\.android\build-cache\9145d99a1a29c674e9acac1639ffe02e006bde18\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Qolsys\.android\build-cache\07531ae9c35579723198fe79d136fbd38484ae68\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\57f841644e42d905b0951132c70cccff48df5c13\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Qolsys\.android\build-cache\bdae8d3188fe12cbdadbf447cdbf319ae3b0749e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Qolsys\.android\build-cache\08b881592dc0c63413b2849999fd17a0b40c6600\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\87e52cab28b0f0adf4fe4a556be5a81e2e157fe4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Qolsys\.android\build-cache\bdb65aad1214faa863d7f73708d567c8f1443b9f\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Qolsys\.android\build-cache\592567c85112366cb64989a060ba9b396b93a03b\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:19:9-35
 	android:roundIcon
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:18:9-54
 	android:allowBackup
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:16:9-43
 	android:theme
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:14:9-42
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:14:9-42
 meta-data#asset_statements
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:21:9-23:59
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:21:9-23:59
 	android:resource
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:23:13-56
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:22:13-44
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:22:13-44
 activity#com.project.sjsu.socialapp.SocialActivity
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:25:9-28:59
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:25:9-28:59
 	android:label
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:27:13-45
 	android:theme
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:26:13-43
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:26:13-43
 activity#com.project.sjsu.socialapp.LoginActivity
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:31:13-38
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:31:13-38
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:30:13-42
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:30:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:35:27-74
 activity#com.project.sjsu.socialapp.SearchUsers
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:38:9-49
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:38:9-49
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:38:19-46
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:38:19-46
 activity#com.project.sjsu.socialapp.FriendRequest
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:39:9-51
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:39:9-51
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:39:19-48
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:39:19-48
 activity#com.project.sjsu.socialapp.SentRequest
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:40:9-49
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:40:9-49
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:40:19-46
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:40:19-46
 activity#com.project.sjsu.socialapp.PrivateMessage
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:41:9-52
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:41:9-52
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:41:19-49
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:41:19-49
 activity#com.project.sjsu.socialapp.RegisterActivity
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:43:9-54
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:43:9-54
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:43:19-51
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:43:19-51
 activity#com.project.sjsu.socialapp.EmailConfirmActivity
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:44:9-59:20
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:44:9-59:20
 	android:launchMode
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:46:13-43
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:46:13-43
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:45:13-49
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:45:13-49
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:47:13-58:29
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:47:13-58:29
 	android:autoVerify
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:47:28-53
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:47:28-53
 action#android.intent.action.VIEW
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:50:17-76
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:50:17-76
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:50:27-73
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:50:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:51:17-78
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:51:17-78
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:51:27-75
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:51:27-75
 data
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:53:17-57:45
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:53:17-57:45
 	android:path
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:55:21-49
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:55:21-49
 	android:host
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:54:21-50
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:54:21-50
 	android:port
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:56:21-40
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:56:21-40
 	android:scheme
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:57:21-42
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:57:21-42
 activity#com.project.sjsu.socialapp.UserProfile
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:60:9-49
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:60:9-49
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:60:19-46
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:60:19-46
 activity#com.project.sjsu.socialapp.UserAcceptProfile
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:61:9-55
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:61:9-55
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:61:19-52
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:61:19-52
 activity#com.project.sjsu.socialapp.Message
-ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:62:9-54
+ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:62:9-54
 	android:name
-		ADDED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml:62:19-42
+		ADDED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml:62:19-42
 uses-sdk
-INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.0] C:\Users\Vansh\.android\build-cache\3a5d6aaba260df09a539c22f4353897d82af6042\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Vansh\.android\build-cache\f51ad329e713d65c8918963e67e24fe7877570a2\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Vansh\.android\build-cache\2e534d6c9f02fb02b2015210f6f591760a770db1\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Vansh\.android\build-cache\4c013e5dc5c25d944f5393012095bd4acb5aa570\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Vansh\.android\build-cache\48707291589acfe2b040643f9973ae9434abbef7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.0] C:\Users\Vansh\.android\build-cache\a6fedca39d6d0b3c421ae1b5ba77be83afab396c\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Vansh\.android\build-cache\08b8b17fdad34bc70782f53ece6840322d444865\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Vansh\.android\build-cache\69fb167d7289bc0c802663d9a1603ddd7f788844\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Vansh\.android\build-cache\55f7b177107b1c23ac53936c1e28d7c426b1d935\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Vansh\.android\build-cache\3459ee2224fa377623f50bed32d8168f423d5b29\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Vansh\.android\build-cache\c758222f689cd83f500951a784ce80b2476bd55a\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Vansh\.android\build-cache\2e5a4b7a7873f529f36291acc5d26a0fcb204aca\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\Vansh\.android\build-cache\1b7578a5f645c3a0c0eb9b71f709bf10b1f81ec7\output\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Vansh\.android\build-cache\9404cf08d8f3805bd10ee62a2ca36573cf0767f5\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\ac7685afbeb62d979265eab418d7838fb95b9f7f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\2684397c4545cbf2946d74d931a3d26306cc12a7\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\432a8d379e4c1806cc6961640b28f33b810e99ee\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\468f95d67c4af814f18742b2eaad1000d2b722bc\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\0f5fe60679f4a1b3e5067fef81fa9eaf1536b9fe\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Qolsys\.android\build-cache\8a6d3abc4388747843294e5b12fce279f49f7a05\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Qolsys\.android\build-cache\9145d99a1a29c674e9acac1639ffe02e006bde18\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Qolsys\.android\build-cache\07531ae9c35579723198fe79d136fbd38484ae68\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\57f841644e42d905b0951132c70cccff48df5c13\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Qolsys\.android\build-cache\bdae8d3188fe12cbdadbf447cdbf319ae3b0749e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Qolsys\.android\build-cache\08b881592dc0c63413b2849999fd17a0b40c6600\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\87e52cab28b0f0adf4fe4a556be5a81e2e157fe4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Qolsys\.android\build-cache\bdb65aad1214faa863d7f73708d567c8f1443b9f\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Qolsys\.android\build-cache\592567c85112366cb64989a060ba9b396b93a03b\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.0] C:\Users\Vansh\.android\build-cache\3a5d6aaba260df09a539c22f4353897d82af6042\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\ac7685afbeb62d979265eab418d7838fb95b9f7f\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Final-Social\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Tutorial\SJSU\277\TermProject3\Social-App\SocialApp\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.0] C:\Users\Vansh\.android\build-cache\3a5d6aaba260df09a539c22f4353897d82af6042\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Vansh\.android\build-cache\f51ad329e713d65c8918963e67e24fe7877570a2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Vansh\.android\build-cache\2e534d6c9f02fb02b2015210f6f591760a770db1\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Vansh\.android\build-cache\4c013e5dc5c25d944f5393012095bd4acb5aa570\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Vansh\.android\build-cache\48707291589acfe2b040643f9973ae9434abbef7\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.0] C:\Users\Vansh\.android\build-cache\a6fedca39d6d0b3c421ae1b5ba77be83afab396c\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Vansh\.android\build-cache\08b8b17fdad34bc70782f53ece6840322d444865\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Vansh\.android\build-cache\69fb167d7289bc0c802663d9a1603ddd7f788844\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Vansh\.android\build-cache\55f7b177107b1c23ac53936c1e28d7c426b1d935\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Vansh\.android\build-cache\3459ee2224fa377623f50bed32d8168f423d5b29\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Vansh\.android\build-cache\c758222f689cd83f500951a784ce80b2476bd55a\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Vansh\.android\build-cache\2e5a4b7a7873f529f36291acc5d26a0fcb204aca\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\ac7685afbeb62d979265eab418d7838fb95b9f7f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\2684397c4545cbf2946d74d931a3d26306cc12a7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\432a8d379e4c1806cc6961640b28f33b810e99ee\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Qolsys\.android\build-cache\468f95d67c4af814f18742b2eaad1000d2b722bc\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Qolsys\.android\build-cache\0f5fe60679f4a1b3e5067fef81fa9eaf1536b9fe\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Qolsys\.android\build-cache\8a6d3abc4388747843294e5b12fce279f49f7a05\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Qolsys\.android\build-cache\9145d99a1a29c674e9acac1639ffe02e006bde18\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Qolsys\.android\build-cache\07531ae9c35579723198fe79d136fbd38484ae68\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\57f841644e42d905b0951132c70cccff48df5c13\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Qolsys\.android\build-cache\bdae8d3188fe12cbdadbf447cdbf319ae3b0749e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Qolsys\.android\build-cache\08b881592dc0c63413b2849999fd17a0b40c6600\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Qolsys\.android\build-cache\87e52cab28b0f0adf4fe4a556be5a81e2e157fe4\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.0] C:\Users\Vansh\.android\build-cache\3a5d6aaba260df09a539c22f4353897d82af6042\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\ac7685afbeb62d979265eab418d7838fb95b9f7f\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.0] C:\Users\Vansh\.android\build-cache\3a5d6aaba260df09a539c22f4353897d82af6042\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Qolsys\.android\build-cache\ac7685afbeb62d979265eab418d7838fb95b9f7f\output\AndroidManifest.xml:26:9-47

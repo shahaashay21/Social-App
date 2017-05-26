@@ -1,4 +1,4 @@
-#Wed May 24 20:44:24 PDT 2017
-base.0=C\:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+#Thu May 25 20:36:32 PDT 2017
+base.0=C\:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
-file.0=C\:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
+file.0=C\:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

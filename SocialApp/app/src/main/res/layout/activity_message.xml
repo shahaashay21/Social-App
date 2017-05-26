@@ -20,7 +20,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="88dp"
             android:ems="10"
-            android:hint="Search User"
+            android:hint="Enter receiver email"
             android:inputType="textPersonName"
             android:layout_alignParentEnd="true" />
 

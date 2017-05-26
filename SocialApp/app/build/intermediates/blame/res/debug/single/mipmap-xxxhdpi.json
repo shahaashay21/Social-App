@@ -1,18 +1,10 @@
 [
     {
-        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "D:\\Final-Social\\SocialApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "D:\\Final-Social\\SocialApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

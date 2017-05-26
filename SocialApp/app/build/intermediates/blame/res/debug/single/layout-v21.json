@@ -1,34 +1,18 @@
 [
     {
-        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Vansh\\.android\\build-cache\\f51ad329e713d65c8918963e67e24fe7877570a2\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Vansh\\.android\\build-cache\\f51ad329e713d65c8918963e67e24fe7877570a2\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Vansh\\.android\\build-cache\\f51ad329e713d65c8918963e67e24fe7877570a2\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Vansh\\.android\\build-cache\\f51ad329e713d65c8918963e67e24fe7877570a2\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Tutorial\\SJSU\\277\\TermProject3\\Social-App\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Qolsys\\.android\\build-cache\\2684397c4545cbf2946d74d931a3d26306cc12a7\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]
