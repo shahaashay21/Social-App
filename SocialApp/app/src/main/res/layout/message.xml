@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/section_label"
         android:layout_centerHorizontal="true"
-        android:text="SIGN UP" />
+        android:text="Private Message" />
 
     <TextView
         android:id="@+id/textView2"

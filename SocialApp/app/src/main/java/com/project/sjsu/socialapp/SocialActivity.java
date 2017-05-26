@@ -171,7 +171,7 @@ public class SocialActivity extends AppCompatActivity {
                 case 0:
                     return "Front";
                 case 1:
-                    return "Messages";
+                    return "Mail";
                 case 2:
                     return "Profiles";
                 case 3:
