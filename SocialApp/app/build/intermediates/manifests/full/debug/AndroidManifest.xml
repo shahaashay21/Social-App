@@ -67,6 +67,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.project.sjsu.socialapp.UserProfile" />
+        <activity android:name="com.project.sjsu.socialapp.UserAcceptProfile" />
         <activity android:name="com.project.sjsu.socialapp.Message" />
     </application>
 

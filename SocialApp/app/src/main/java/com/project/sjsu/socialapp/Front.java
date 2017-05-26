@@ -51,6 +51,8 @@ public class Front  extends Fragment{
 
     String finalImage;
     Boolean image_flag = false;
+    static String Global_ID;
+
 
     private static final String TAG = SocialActivity.class.getSimpleName();
     private ListView listView;
@@ -62,7 +64,9 @@ public class Front  extends Fragment{
     //private String URL_FEED = "/feed/feed.json";
 
     private final String IP = "http://54.183.170.253:3000";
+    private String GET_FEED;
     private final String UPLOAD_POST_ROUTE = "/feed/post";
+
 
 
     public static final int SELECTED_PICTURE = 1;
@@ -75,7 +79,7 @@ public class Front  extends Fragment{
     Button mPostButton;
     ImageView mImage;
 
-    String Global_ID;
+
     public Front()
     {
         //empty constructor
@@ -86,6 +90,8 @@ public class Front  extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.front, container, false);
+
+//        Log.e("URL Called is: ", GET_FEED);
 
         image_flag = false;
         /*  Upload Post Stuff  */
@@ -104,6 +110,8 @@ public class Front  extends Fragment{
 
         final String idValue = sharedPreferences.getString("userId", null);
         Global_ID = idValue;
+        GET_FEED = "/feed/get/"+ Global_ID;
+        Log.e("Setting globalk id: ", Global_ID);
         if(idValue == null){
             Intent forwardLoginIntent = new Intent(getActivity(), LoginActivity.class);
             startActivity(forwardLoginIntent);
@@ -176,11 +184,12 @@ public class Front  extends Fragment{
 /*Dont neeed to touch this for now it is used to generate feeddddd*/
         Cache cache = AppController.getInstance().getRequestQueue().getCache();
         Cache.Entry entry = cache.get(URL_FEED);
-        if (entry != null) {
+        if (entry == null) {
             // fetch the data from cache
             try {
                 String data = new String(entry.data, "UTF-8");
                 try {
+                    Log.d("Cache Data: ", data);
                     parseJsonFeed(new JSONObject(data));
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -191,14 +200,42 @@ public class Front  extends Fragment{
 
         } else {
             // making fresh volley request and getting json
+//            HttpRequest request = new HttpRequest(getContext());
+//            final Map<String, String> sendSearchData = new HashMap<>();
+//            Log.e("IP + GET FEED:", IP+GET_FEED);
+//
+//            request.sendPostRequest(IP + GET_FEED, sendSearchData, new CallbackInterface() {
+//                @Override
+//                public void onCallBackComplete(String[] response) {
+//
+//                    Log.e("RESPONSE IS:", response[0]);
+//                    Log.e("Response Length:", String.valueOf(response.length));
+//                    Log.d("Debug Reponse[1]:", response[1].toString());
+//
+//                    if(response[0].toString().equals("success")){
+//                        if(response[1].toString().equals("error")){
+//
+//
+//                        }else{
+//
+//                        }
+//                    }
+//
+//                }
+//            });
+//
             JsonObjectRequest jsonReq = new JsonObjectRequest(Request.Method.GET,
                     URL_FEED, null, new Response.Listener<JSONObject>() {
 
                 @Override
                 public void onResponse(JSONObject response) {
+
+                    Log.d("JSON RESPONSE Gandu:",response.toString() );
                     VolleyLog.d(TAG, "Response: " + response.toString());
                     if (response != null) {
+                        Log.d("JSON RESPONSE:",response.toString() );
                         parseJsonFeed(response);
+//                        Log.e("JSON RESPONSE:",response.toString() );
                     }
                 }
             }, new Response.ErrorListener() {
@@ -227,22 +264,39 @@ public class Front  extends Fragment{
                 JSONObject feedObj = (JSONObject) feedArray.get(i);
 
                 FeedItem item = new FeedItem();
-                item.setId(feedObj.getInt("id"));
+                Log.d("Feed: ", feedObj.toString());
+                Log.d("ID: ", String.valueOf(feedObj.getString("id")));
+                if(feedObj.getString("id") == null || feedObj.getString("id") == "null") {
+                    item.setId(0);
+                } else{
+                    int value = Integer.parseInt(feedObj.getString("id"));
+                    Log.d("Id in integer: ", String.valueOf(value));
+                    item.setId(value);
+                }
                 item.setName(feedObj.getString("name"));
 
                 // Image might be null sometimes
+                Log.d("Setting image for id:",feedObj.getString("id"));
                 String image = feedObj.isNull("image") ? null : feedObj
                         .getString("image");
                 item.setImge(image);
+                Log.d("Setting status for id:",feedObj.getString("id"));
                 item.setStatus(feedObj.getString("status"));
+                Log.d("Setting pic for id:",feedObj.getString("id"));
                 item.setProfilePic(feedObj.getString("profilePic"));
-                item.setTimeStamp(feedObj.getString("timeStamp"));
+                Log.d("Setting timestamp id:",feedObj.getString("id"));
+                if(feedObj.getString("timeStamp") == null || feedObj.getString("timeStamp") == "null") {
+                    item.setTimeStamp("0");
+                } else
+                    item.setTimeStamp(feedObj.getString("timeStamp"));
+
 
                 // url might be null sometimes
+                Log.d("Setting feedurl for id:",feedObj.getString("id"));
                 String feedUrl = feedObj.isNull("url") ? null : feedObj
                         .getString("url");
                 item.setUrl(feedUrl);
-
+                Log.d("add item for id:",feedObj.getString("id"));
                 feedItems.add(item);
             }
 

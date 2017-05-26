@@ -80,7 +80,7 @@ exports.feedCreatePost = function(req, res)
 		}
 		else
 		{
-			rese.send("failure")
+			res.send("failure")
 			console.log("post was not created");
 		}
 	});
@@ -125,8 +125,9 @@ exports.feedGetPost = function(req, res)
 
 	var user_id = req.param("user_id");
 
-	var q = "select concat(u.first_name, '  ',u.last_name) as name, fe.image_url as image, fe.feed_text as status, fe.createdAt as timeStamp, u.avatar as profilePic from friend as fr left join users as u on fr.friend_id = u.user_id left join feed as fe on u.user_id = fe.user_id where fr.user_id = "+user_id+" and (fr.request = '2' or fr.follow = '1') UNION select concat(u.first_name, ' ', u.last_name) as name, fe.image_url as image, fe.feed_text as status, fe.createdAt as timeStamp, u.avatar as profilePic from feed as fe left join users as u on fe.user_id = u.user_id;";
+	var q = "select fe.feed_id as id, concat(u.first_name, '  ',u.last_name) as name, fe.image_url as image, fe.feed_text as status, fe.createdAt as timeStamp, u.avatar as profilePic from friend as fr left join users as u on fr.friend_id = u.user_id left join feed as fe on u.user_id = fe.user_id where fr.user_id = "+user_id+" and (fr.request = '2' or fr.follow = '1') and u.privacy = '0' UNION select fe.feed_id as id, concat(u.first_name, ' ', u.last_name) as name, fe.image_url as image, fe.feed_text as status, fe.createdAt as timeStamp, u.avatar as profilePic from feed as fe left join users as u on fe.user_id = u.user_id;";
 	db.sequelize.query(q).spread((results, metadata) => {
-		res.json(results);
+		res.send({"feed": results});
+		//res.json(results);
 	});
 }

@@ -200,6 +200,7 @@ public class Message extends AppCompatActivity {
                         Log.e("Update First Respo", response[0].toString());
                         if(response[0].toString().equals("success"))
                         {
+
                             Toast.makeText(getApplicationContext(), "Your message has been sent", Toast.LENGTH_SHORT).show();
                             finish();
                         }

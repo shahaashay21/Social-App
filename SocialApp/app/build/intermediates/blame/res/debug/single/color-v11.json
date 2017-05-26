@@ -6,5 +6,13 @@
     {
         "merged": "C:\\AndroidProjects\\friendzone_app_master\\working_progress\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\Hugo Quiroz\\.android\\build-cache\\622fa2822f845855248aa8c211acaa2f01190a70\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Vansh\\.android\\build-cache\\f51ad329e713d65c8918963e67e24fe7877570a2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Final-Social\\SocialApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Vansh\\.android\\build-cache\\f51ad329e713d65c8918963e67e24fe7877570a2\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]
